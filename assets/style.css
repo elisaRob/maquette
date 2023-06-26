@@ -172,7 +172,7 @@ ul {
 .containerHeaderImage .diaporamaImage{
     display:none;
    
-
+   
 
 }
 
@@ -2207,12 +2207,14 @@ ul {
 
    .containerCarte .imageLieu{
         position:absolute;
-        width:calc(330 * var(--valeurViewport) / var(--variableLargeur));
-        height: calc(238 * var(--valeurViewport) / var(--variableLargeur));
+        /* width:calc(330 * var(--valeurViewport) / var(--variableLargeur)); */
+        height: calc(297.9 * var(--valeurViewport) / var(--variableLargeur));
         top:calc(1025.05 * var(--valeurViewport) / var(--variableLargeur));
         left:50%;
         transform:translateX(-50%);
         margin-top:0;
+        width:100%;
+        background-color: var(--background-color2);
      
    }
 
@@ -2220,9 +2222,10 @@ ul {
         position:absolute;
         width:var(--variableLargeur);
         height: calc(567.2 * var(--valeurViewport) / var(--variableLargeur));
-        top:calc(30 * var(--valeurViewport) / var(--variableLargeur));
+        /* padding-top:calc(30 * var(--valeurViewport) / var(--variableLargeur)); */
         left:0;
-       
+        padding:calc(30 * var(--valeurViewport) / var(--variableLargeur));
+        top:0
    
    }
 
@@ -2232,8 +2235,23 @@ ul {
         top:calc(302 * var(--valeurViewport) / var(--variableLargeur));
         height: calc(269 * var(--valeurViewport) / var(--variableLargeur));
         left:calc(-30 * var(--valeurViewport) / var(--variableLargeur));;
-      
-      
+        filter:brightness(0.9)
+   }
+
+   .containerCarte .imageLieu .divFleche{
+        top:calc(330.41 * var(--valeurViewport) / var(--variableLargeur));
+        left:calc(321.5 * var(--valeurViewport) / var(--variableLargeur));
+   }
+
+   .containerCarte .imageLieu .divBouton{
+        top:calc(511.95 * var(--valeurViewport) / var(--variableLargeur));
+        left:calc(251 * var(--valeurViewport) / var(--variableLargeur));
+        width:calc(119 * var(--valeurViewport)/var(--variableLargeur));
+        height: calc(39 * var(--valeurViewport) / var(--variableLargeur));
+   }
+
+   .containerCarte .imageLieu .divBouton button{
+        font-size:calc(15 * var(--valeurViewport)/var(--variableLargeur))
    }
 
   
