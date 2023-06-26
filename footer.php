@@ -1,4 +1,4 @@
-<?php
+
 <footer>
        <div class="containerSponsor">
             <div class="containerToutesLesSvg">
@@ -310,4 +310,3 @@
 </body>
 
 </html>
-?>
