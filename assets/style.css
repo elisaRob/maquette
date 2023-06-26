@@ -1741,6 +1741,10 @@ ul {
         --hauteurPechesTypes:604.45;
         --hauteurCarte:1596;
     }
+
+    body{
+        overflow-x:hidden;
+    }
    
 
 
