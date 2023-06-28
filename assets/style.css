@@ -2432,7 +2432,7 @@ ul {
     height: 100vh;
     
 }
-.section-form form{
+/* .section-form form{ */
     /* width: 60%; */
     /* position:absolute; */
     /* height:100%; */
@@ -2444,7 +2444,7 @@ ul {
     justify-content: space-around;
     align-items: center; */
     /* border: purple 1px solid; */
-}
+/* } */
 .section-form h2{
     text-align: center;
     font-family:var(--deuxiemeFontFamily)
