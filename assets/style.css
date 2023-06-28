@@ -107,6 +107,17 @@ nav ul li:not(li:nth-child(7)) {
     padding-right:calc(45 / var(--variableLargeur) * 100%) ;
 }  
 
+nav ul li{
+    height:100%;
+   
+}
+
+nav ul li a{
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+
 
 nav ul li a{
     font-size:var(--fontSiza20px);
@@ -141,11 +152,11 @@ nav ul li:first-child svg{
 nav ul li a:before{
     content:"";
     position:absolute;
-    top:calc(34 * var(--valeurViewport) / 1920) ;
+    top:0 ;
     left:0%;
     width:0%;
-    height:100%;
-    border-bottom:calc(6 * var(--valeurViewport) / 1920)  solid var(--troisiemeCouleurTexte);
+    height:95%;
+    border-bottom:calc(6 * var(--valeurViewport)/var(--variableLargeur))  solid var(--troisiemeCouleurTexte);
     transition:width 0.5s;
 }
 
@@ -2419,12 +2430,12 @@ ul {
     border: red 1px solid;
 }
 #text-form{
-    width: 50%;
+    width: 40%;
     height: 100vh;
     
 }
 .section-form form{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
