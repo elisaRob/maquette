@@ -2424,10 +2424,14 @@ ul {
 
 .section-form{
     width: 100%;
-    min-height: calc(100vh - calc(108 * var(--valeurViewport) / var(--variableLargeur)));
+    height: calc(100vh - calc(102 * var(--valeurViewport) / var(--variableLargeur)));
     display: flex;
     flex-direction: row;
-    border: red 1px solid;
+    /* border: red 1px solid; */
+    /* background-color: #FD7E23; */
+    font-family:var(--premiereFontFamily)
+
+  
 }
 #text-form{
     width: 40%;
@@ -2436,15 +2440,36 @@ ul {
 }
 .section-form form{
     width: 60%;
-    display: flex;
+    /* position:absolute; */
+    /* height:100%; */
+    /* top:0;
+    /* left:50%; */
+    /* transform:translateX(-50%)  */
+    /* display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    border: purple 1px solid;
+    align-items: center; */
+    /* border: purple 1px solid; */
 }
 .section-form h2{
     text-align: center;
+    font-family:var(--deuxiemeFontFamily)
+
 }
 .section-form textarea{
     resize: none;
+}
+.btnForm{
+    background-color: #FD7E23;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+}
+
+.btnForm:hover{
+    opacity: 1;
 }

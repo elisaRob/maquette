@@ -41,7 +41,7 @@ require_once 'header.php';
             <label for="check">En validant ce formulaire, vous acceptez d'être contacté</label>
         </div>
         <div class="soumettre">
-            <button type="submit">Soumettre</button>
+            <button class="btnForm" type="submit">Soumettre</button>
         </div>
     </form>
 </section>
