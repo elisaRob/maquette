@@ -682,9 +682,13 @@ ul {
     display:flex;
     justify-content:center;
     align-items:center;
-    /* gap:calc(38 * var(--valeurViewport) / var(--variableLargeur)); */
+    gap:calc(38 * var(--valeurViewport) / var(--variableLargeur));
 
 
+}
+
+.pechesTypes .spanMediaQuerie{
+    display:none;
 }
 
 
@@ -700,7 +704,7 @@ ul {
     
     width:100%;
     object-fit: cover;
-    padding-left:calc(38 * var(--valeurViewport) / var(--variableLargeur));
+    /* padding-left:calc(38 * var(--valeurViewport) / var(--variableLargeur)); */
     transition:transform 0.5s
 }
 
