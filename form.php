@@ -26,6 +26,11 @@ require_once 'header.php';
         <div>
             
             <input type="checkbox" name="check" id="">
+            <label for="check">Veuillez valider les conditions générales</label>
+        </div>
+        <div>
+            
+            <input type="checkbox" name="check" id="">
             <label for="check">En validant ce formulaire, vous acceptez d'être contacté</label>
         </div>
         <div class="soumettre">

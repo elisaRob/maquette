@@ -120,6 +120,9 @@ nav ul li a{
     position:relative;
 
 }
+nav ul li a:first-child{
+    display: flex;
+}
 nav ul li a:before{
     content:"";
     position:absolute;
@@ -129,10 +132,6 @@ nav ul li a:before{
     height:100%;
     border-bottom:calc(6 * var(--valeurViewport) / 1920)  solid var(--troisiemeCouleurTexte);
     transition:width 0.5s;
-  
-  
-  
-    
 }
 
 nav ul li a:hover:before{
@@ -2394,3 +2393,4 @@ ul {
    
     
 }
+
