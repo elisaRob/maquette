@@ -120,6 +120,9 @@ nav ul li a{
     position:relative;
 
 }
+nav ul li a:first-child{
+    display: flex;
+}
 nav ul li a:before{
     content:"";
     position:absolute;
@@ -129,10 +132,6 @@ nav ul li a:before{
     height:100%;
     border-bottom:calc(6 * var(--valeurViewport) / 1920)  solid var(--troisiemeCouleurTexte);
     transition:width 0.5s;
-  
-  
-  
-    
 }
 
 nav ul li a:hover:before{
@@ -682,9 +681,13 @@ ul {
     display:flex;
     justify-content:center;
     align-items:center;
-    /* gap:calc(38 * var(--valeurViewport) / var(--variableLargeur)); */
+    gap:calc(38 * var(--valeurViewport) / var(--variableLargeur));
 
 
+}
+
+.pechesTypes .spanMediaQuerie{
+    display:none;
 }
 
 
@@ -700,7 +703,7 @@ ul {
     
     width:100%;
     object-fit: cover;
-    padding-left:calc(38 * var(--valeurViewport) / var(--variableLargeur));
+    /* padding-left:calc(38 * var(--valeurViewport) / var(--variableLargeur)); */
     transition:transform 0.5s
 }
 
