@@ -118,11 +118,26 @@ nav ul li a{
     width:clamp(calc(1048 / var(--variableLargeur) * 100%));
     white-space : nowrap;
     position:relative;
+}
+nav ul li:first-child{
+    position:absolute;
+    top:0;
+    height:100%;
 
 }
-nav ul li a:first-child{
-    display: flex;
+
+nav ul li:first-child a{
+    height:100%;
+    position:absolute;
+    top:0;
 }
+
+nav ul li:first-child svg{
+    position:absolute;
+    top:0;
+    height:100%;
+}
+
 nav ul li a:before{
     content:"";
     position:absolute;
