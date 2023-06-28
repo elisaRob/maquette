@@ -2429,7 +2429,7 @@ ul {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: purple 1 px solid;
+    border: purple 1px solid;
 }
 .section-form h2{
     text-align: center;
