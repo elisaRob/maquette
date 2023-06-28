@@ -4,7 +4,7 @@ require_once 'header.php';
 <section class="main fondFormulaire">
     <div id="text-form">
         <h2>Ne sois pas timide</h2>
-        <p>N'hésites pas à nous contacter. 
+        <p class="form">N'hésites pas à nous contacter. 
         Nous sommes toujours ouvert à la discussion ou autres remarques.
         N'oublie pas tu peux nous suivre sur les réseaux.</p>
     </div>
