@@ -1,7 +1,7 @@
 <?php
 require_once 'header.php';
 ?>
-<section class="main fondFormulaire">
+<section class="section-form">
     <div id="text-form">
 
     </div>
