@@ -19,10 +19,7 @@
                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis imperdiet tincidunt. Sed faucibus imperdiet dolor.</p>
                 </div>
                 <div class="containerPlanDEauDiaporamaImage">
-                    <p>Plan d'eau de nonnes</p>
-                </div>
-                <div class="containerNomVilleDiaporamaImage">
-                    <p>Châtellerault(86100)</p>
+                    <img src="assets/img/logo_plan_eau.svg" alt="">
                 </div>
                 <div class="containerComplementInformationDiaporamaImage">
                     <p>2ème catégorie</p>

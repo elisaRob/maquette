@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="174" height="57" viewBox="0 0 174 57">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1805" data-name="Rectangle 1805" width="28.797" height="41.322" transform="translate(-23 -103)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_9632" data-name="Groupe 9632" transform="translate(-881 -749)">
+    <text id="Plan_d_eau_de_Nonnes" data-name="Plan d’eau
+de Nonnes" transform="translate(935 768)" fill="#fff" font-size="20" font-family="AsapCondensed-Bold, Asap Condensed" font-weight="700"><tspan x="0" y="0">PLAN D’EAU</tspan><tspan x="0" y="20">DE NONNES</tspan></text>
+    <g id="Groupe_9631" data-name="Groupe 9631" transform="translate(881 749)">
+      <g id="Groupe_9631-2" data-name="Groupe 9631" transform="translate(30.726 110.089)" clip-path="url(#clip-path)">
+        <path id="Tracé_16536" data-name="Tracé 16536" d="M28.8,28.281a13.02,13.02,0,0,0-5.268-7.415c3.631,9.768-2.352,18.462-11.149,18.257-5.811-.61-9.356-4.019-10.161-8.686a11.59,11.59,0,0,1,1.113-7.18c3.742-7.422,13.511-12.716,13.153-19.2C15.773-1.406,9.222-1.135,8.4,3.57c-.508,1.938.448,4.45,3.235,6.381C7.117,15.875-.219,20.432,0,28.69.23,35.657,5.323,41.373,13.4,41.322c7.559-.513,13.041-5.421,12.99-14.729ZM9.958,4.851a3.085,3.085,0,0,1,1.285-2.9,1.847,1.847,0,0,1,2.79.524,3.709,3.709,0,0,1,.4,3.309c-.056.156-.1.315-.147.474a10.3,10.3,0,0,1-1.536,2.362A5.068,5.068,0,0,1,9.958,4.851" transform="translate(-22.999 -103.001)" fill="#fff"/>
+        <path id="Tracé_16537" data-name="Tracé 16537" d="M746.974,2193.9l-6.644-8.722v8.722h-2.979v-13.719h2.783l6.429,8.447v-8.447h2.979V2193.9Z" transform="translate(-753.127 -2261.827)" fill="#fff"/>
+      </g>
+      <path id="Tracé_16538" data-name="Tracé 16538" d="M40.852,16.593a20.261,20.261,0,0,0-39.85,0V16.6a62.609,62.609,0,0,0,0,22.3,20.261,20.261,0,0,0,39.85,0,62.586,62.586,0,0,0,0-22.327Zm-.465,22.243A19.789,19.789,0,0,1,1.454,38.8a62.23,62.23,0,0,1,0-22.123,19.787,19.787,0,0,1,38.933.014,62.156,62.156,0,0,1,0,22.141" transform="translate(0 -0.001)" fill="#fff"/>
+    </g>
+    <text id="Châtellerault_86100_" data-name="Châtellerault (86100)" transform="translate(935 803)" fill="#fff" font-size="12" font-family="AsapCondensed-Regular, Asap Condensed" letter-spacing="0.1em"><tspan x="0" y="0">Châtellerault (86100)</tspan></text>
+  </g>
+</svg>

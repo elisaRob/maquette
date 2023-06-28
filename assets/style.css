@@ -282,23 +282,17 @@ ul {
 
 .containerPlanDEauDiaporamaImage{
     position:absolute;
-    width:calc(89 * var(--valeurViewport) / var(--variableLargeur));
-    left:calc(928 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(173 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(874 * var(--valeurViewport) / var(--variableLargeur));
     top:calc(628 / var(--hauteurDiaporama) * 100%);
-    height:calc(43 / var(--hauteurDiaporama) * 100%);
+    height:calc(57 / var(--hauteurDiaporama) * 100%);
     /* left:calc(928 / var(--hauteurDiaporama) * 100%); */
    
 
 }
 
-.containerPlanDEauDiaporamaImage p{
-    position:absolute;
-    font-family:var(--troisiemeFontFamily);
-    text-transform:uppercase;
-    color:var(--PremiereCouleurTexte);
-    font-size:var(--fontSiza20px);
-    line-height:calc(20 * var(--valeurViewport) / var(--variableLargeur));
-    font-weight:bold;
+.containerPlanDEauDiaporamaImage img{
+    width: 100%;
 
 }
 
