@@ -2434,3 +2434,6 @@ ul {
 .section-form h2{
     text-align: center;
 }
+.section-form textarea{
+    resize: none;
+}
