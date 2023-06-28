@@ -11,23 +11,23 @@ require_once 'header.php';
     <form action="reponse.php" method="POST">
     <h2>Formulaire de contact</h2> 
         <div>
-            <label for="nom" class="titreInput">Nom :</label>
-            <input type="text"  name="nom" required>
+            <!-- <label for="nom" class="titreInput">Nom :</label> -->
+            <input type="text"  name="nom" required placeholder= "Vos Noms et Prénoms">
         </div>
-        <div>
+        <!-- <div>
             <label for="prenom"class="titreInput">Prénom :</label>
             <input type="text" name="prenom"required>
+        </div> -->
+        <div>
+            <!-- <label for="mail"class="titreInput">e-mail :</label> -->
+            <input type="email" name="mail" required placeholder= "Mail">
         </div>
         <div>
-            <label for="mail"class="titreInput">e-mail :</label>
-            <input type="email" name="mail" required>
+            <!-- <label for="sujet"class="titreInput">Sujet :</label> -->
+            <input type="text" name="sujet" placeholder= "Le sujet ">
         </div>
         <div>
-            <label for="sujet"class="titreInput">Sujet :</label>
-            <input type="text" name="sujet">
-        </div>
-        <div>
-            <label for="msg"class="titreInput">Message :</label>
+            <!-- <label for="msg"class="titreInput">Message :</label> -->
             <textarea id="msg" name="message" rows="10" cols="30" placeholder= "Votre message ici"required></textarea>
         </div>
         <div>
