@@ -2422,27 +2422,26 @@ ul {
 
 /* Contact */ 
 
-.main{
+.section-form{
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - calc(100 * var(--valeurViewport) / var(--variableLargeur)));
     display: flex;
     flex-direction: row;
+    border: red 1px solid;
 }
 #text-form{
-    width: 50%;
+    width: 40%;
     height: 100vh;
-    background-color: green;
+    
 }
-.main form{
-    width: 50%;
-    height: 100vh;
-    background-color: blue;
+.section-form form{
+    width: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    border: purple 1px solid;
 }
-.main h2{
+.section-form h2{
     text-align: center;
-    padding-bottom: 250px;
 }
