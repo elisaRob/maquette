@@ -2424,7 +2424,7 @@ ul {
 
 .section-form{
     width: 100%;
-    height: calc(100vh - calc(100 * var(--valeurViewport) / var(--variableLargeur)));
+    min-height: calc(100vh - calc(108 * var(--valeurViewport) / var(--variableLargeur)));
     display: flex;
     flex-direction: row;
     border: red 1px solid;
