@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="shortcut icon" href="/assets/img/logo_VM_actu.svg" type="image/x-icon">
+    <script src="app.js" defer></script>
 
 </head>
 <body>
@@ -29,5 +30,11 @@
                 <li><a href="">qui sommes-nous?</a></li>
                 <li><a href="">contact</a></li>
             </ul>
+            <!--Menu hamberger-->
+            <div class="containerMenuHamberger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
 </header>
