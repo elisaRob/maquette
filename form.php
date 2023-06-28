@@ -1,8 +1,12 @@
 <?php
 require_once 'header.php';
 ?>
-<section class="main fondFormulaire">   
+<section class="main fondFormulaire">
+    <div id="text-form">
+
+    </div>
     <form action="reponse.php" method="POST">
+    <h2>Formulaire de contact</h2> 
         <div>
             <label for="nom" class="titreInput">Nom :</label>
             <input type="text"  name="nom" required>

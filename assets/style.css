@@ -2391,3 +2391,29 @@ ul {
     
 }
 
+/* Contact */ 
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+#text-form{
+    width: 50%;
+    height: 100vh;
+    background-color: green;
+}
+.main form{
+    width: 50%;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h2{
+    text-align: center;
+    padding-bottom: 250px;
+}
