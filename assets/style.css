@@ -696,9 +696,13 @@ ul {
     display:flex;
     justify-content:center;
     align-items:center;
-    /* gap:calc(38 * var(--valeurViewport) / var(--variableLargeur)); */
+    gap:calc(38 * var(--valeurViewport) / var(--variableLargeur));
 
 
+}
+
+.pechesTypes .spanMediaQuerie{
+    display:none;
 }
 
 
@@ -714,7 +718,7 @@ ul {
     
     width:100%;
     object-fit: cover;
-    padding-left:calc(38 * var(--valeurViewport) / var(--variableLargeur));
+    /* padding-left:calc(38 * var(--valeurViewport) / var(--variableLargeur)); */
     transition:transform 0.5s
 }
 
@@ -2405,3 +2409,29 @@ ul {
     
 }
 
+/* Contact */ 
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+#text-form{
+    width: 50%;
+    height: 100vh;
+    background-color: green;
+}
+.main form{
+    width: 50%;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h2{
+    text-align: center;
+    padding-bottom: 250px;
+}
