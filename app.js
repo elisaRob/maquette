@@ -130,7 +130,7 @@ function quelChiffre(e){
     switch(chiffreClique){
         case "1":
             removeActive();
-            enleverChiffreSpan()
+            enleverChiffreSpan();
             images[0].classList.add('active');
             elChiffreSpan[0].classList.add('active');
             break;
