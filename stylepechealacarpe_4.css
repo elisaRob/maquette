@@ -218,7 +218,7 @@ ul {
     font-size:calc(60 * var(--valeurViewport) / var(--variableLargeur));
 }
 
-.h2{
+.titreGauche{
 
     font-family: var(--deuxiemeFontFamily);
     color:var(--troisiemeCouleurTexte);

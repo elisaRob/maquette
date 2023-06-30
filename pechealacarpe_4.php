@@ -5,6 +5,8 @@
 <?php
     require_once 'header.php';
 ?>
+
+
             <div class="containerHeaderImageLaPecheALaCarpe1">
                 <img src="assets/img/visu_int_carpe.png" alt="bannière">
                 <h1>La pêche à la carpe</h1>
@@ -19,9 +21,9 @@
 
                     <h2 class="titreGauche">Fil pour moulinet</h2>
     
-            <img src="./images/visu_Nylon_bobine.png - Raccourci.lnk" alt="bobine nylon fil moulinet" width="411px" height="542px">
+            <img src="assets/img/visu_Nylon_bobine.png" alt="bobine nylon fil moulinet" width="411px" height="542px">
 
-            <img src="./images/visu_Tresse_bobine.png - Raccourci.lnk" alt="bobine tresse fil moulinet" width="411px" height="542px">
+            <img src="assets/img/visu_Tresse_bobine.png" alt="bobine tresse fil moulinet" width="411px" height="542px">
     
             <h3>Nylon bobine</h3>
             <p>26/100 28/100 30/100 33/100 35/100 37/100 38/100 40/100</p>
