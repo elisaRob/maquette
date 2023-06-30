@@ -1,6 +1,7 @@
 
-<footer>
-       <div class="containerSponsor">
+
+ 
+        <div class="containerSponsor">
             <div class="containerToutesLesSvg">
 
                 <svg class="logoSponsor logo1Sponsor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 53 53">
@@ -108,13 +109,6 @@
       
             </div>
             
-          
-  
-  
-  
-              
-
-
         </div>
 
 
