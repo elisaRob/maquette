@@ -42,11 +42,11 @@
                 <label for="check">En validant ce formulaire, vous acceptez d'être contacté</label>
             </div>
             <div class="soumettre">
-                <button class="btnForm" type="submit">Soumettre</button>
+                <button class="btnForm" type="submit"><b>Soumettre<b></button>
             </div>
         </form>
-        <h2 class="formTitle">Formulaire de contact <br> <br> <br> </h2>
-    <!-- </div> -->
+        <!-- <h2 class="formTitle">Formulaire de contact <br> <br> <br> </h2> -->
+    </div>
 </section>
 <?php
     require_once 'footer.php';
