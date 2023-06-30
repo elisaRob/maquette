@@ -1,3 +1,4 @@
+<!-- Attention ici c'est la partie de page du formulaire -->
 <?php
 require_once 'header.php';
 ?>
