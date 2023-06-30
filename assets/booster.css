@@ -93,6 +93,13 @@
 .containerImagesEtTexteBooster{
     width:calc(411 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(823 * var(--valeurViewport) / var(--variableLargeur));
+    margin-left:calc(18 *  var(--valeurViewport) / var(--variableLargeur))
+}
+/***general tous***/
+
+.containerDescription{
+    width:calc(368 * var(--valeurViewport) / var(--variableLargeur));
+    background-color: var(--backgroundColor1);
 }
 
 /***premiere image ***/
@@ -103,6 +110,7 @@
     width:calc(431 * var(--valeurViewport) / var(--variableLargeur));
     left:calc(81 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(823 * var(--valeurViewport) / var(--variableLargeur));
+  
 }
 
 
@@ -110,26 +118,26 @@
     position:absolute;
     top:0;
     width:calc(411 * var(--valeurViewport) / var(--variableLargeur));
-    left:calc(101 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(22 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(542 * var(--valeurViewport) / var(--variableLargeur));
 }
 
 .containerDescription1{
     position:absolute;
-    top:calc(504 * var(--valeurViewport) / var(--variableLargeur));
-    width:calc(368 * var(--valeurViewport) / var(--variableLargeur));
-    left:calc(103 * var(--valeurViewport) / var(--variableLargeur));
+    bottom:calc(133 * var(--valeurViewport) / var(--variableLargeur));
+    /* width:calc(368 * var(--valeurViewport) / var(--variableLargeur)); */
+    left:calc(22 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(226 * var(--valeurViewport) / var(--variableLargeur));
-    background-color: var(--background-color2);
+ 
 }
 
 .containerDescription1 .containerInterieur{
     position:absolute;
-    top:calc(40 * var(--valeurViewport) / var(--variableLargeur));
+    bottom:0;
     width:calc(300 * var(--valeurViewport) / var(--variableLargeur));
     left:calc(39 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(186 * var(--valeurViewport) / var(--variableLargeur));
-    background-color: var(--background-color2);
+
 }
 
 .containerDescription1 .containerInterieur h3{
@@ -152,7 +160,7 @@
     position:absolute;
     bottom:calc(0 * var(--valeurViewport) / var(--variableLargeur));
     width:calc(368 * var(--valeurViewport) / var(--variableLargeur));
-    left:calc(103 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(22 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(133 * var(--valeurViewport) / var(--variableLargeur));
     background-color: var(--troisiemeCouleurTexte);
 }
@@ -185,17 +193,17 @@
     position:absolute;
     top:0;
     width:100%;
-    left:calc(101 * var(--valeurViewport) / var(--variableLargeur));
+    left:0;
     height:calc(542 * var(--valeurViewport) / var(--variableLargeur));
 }
 
 .containerDescription2{
     position:absolute;
-    top:calc(504 * var(--valeurViewport) / var(--variableLargeur));
-    width:calc(368 * var(--valeurViewport) / var(--variableLargeur));
-    left:calc(103 * var(--valeurViewport) / var(--variableLargeur));
-    height:calc(226 * var(--valeurViewport) / var(--variableLargeur));
-    background-color: var(--background-color2);
+    bottom:calc(132 * var(--valeurViewport) / var(--variableLargeur));
+    /* width:calc(368 * var(--valeurViewport) / var(--variableLargeur)); */
+    left:calc(22 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(227 * var(--valeurViewport) / var(--variableLargeur));
+
 }
 
 .containerDescription2 .containerInterieur{
@@ -204,7 +212,7 @@
     width:calc(300 * var(--valeurViewport) / var(--variableLargeur));
     left:calc(39 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(186 * var(--valeurViewport) / var(--variableLargeur));
-    background-color: var(--background-color2);
+    
 }
 
 .containerDescription2 .containerInterieur h3{
@@ -227,7 +235,7 @@
     position:absolute;
     bottom:calc(0 * var(--valeurViewport) / var(--variableLargeur));
     width:calc(368 * var(--valeurViewport) / var(--variableLargeur));
-    left:calc(103 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(22 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(133 * var(--valeurViewport) / var(--variableLargeur));
     background-color: var(--troisiemeCouleurTexte);
 }

@@ -35,14 +35,14 @@
             <img src="assets/img/visu_dip.png" alt="booster">
             <div class="containerDescription containerDescription2">
                 <div class="containerInterieur">
-                    <h3>Booster </h3>
-                    <p>Tandem Baits Carp Food PVA Booster,
-                        Appâts pour pêche de la Carpe,
-                        Accessoires de Pêche Carpe Professionnel</p>
+                    <h3>DIP  </h3>
+                    <p>Dip Attractor Signal Starbaits Gamme performance.
+                         Solution de trempage 
+                        attractive (identification naturelle, source nutritive,…)l</p>
                 </div>
             </div>
             <div class="containerQuestion containerQuestion2">
-                <p>Pourquoi utiliser un booster ? A quelle saison ?</p>
+                <p>Pourquoi utiliser un booster ? <br>A quelle saison ?</p>
             </div>
         <!-- </div> -->
     </div>
