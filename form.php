@@ -1,7 +1,8 @@
 <!-- Attention ici c'est la partie de page du formulaire -->
-<?php
-require_once 'header.php';
-?>
+<?php require_once 'head.php'?>
+<link rel="stylesheet" href="assets/style.css">
+<?php require_once 'header.php' ?>
+
 <section class="section-form">
     <div id="text-form">
         <h2>Ne sois pas timide</h2>
