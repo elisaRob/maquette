@@ -18,7 +18,7 @@
     --hauteurFooter2:47.34;
 
     --hauteurDiapoPecheALaCarpe:471.93;
-    --hauteurMainPecheALaCarpe1:2004.63;
+    --hauteurMainPecheALaCarpe4:2004.63;
 
     --valeurViewport:100vw;
     --premiereFontFamily:'Asap', sans-serif;
@@ -154,18 +154,18 @@ ul {
 
 /*************************BANIERE ****************************************/
 
-.containerHeaderImageLaPecheALaCarpe1{
+.containerHeaderImageLaPecheALaCarpe4{
     height: calc(var(--hauteurDiapoPecheALaCarpe) * var(--valeurViewport) / var(--variableLargeur));
     position:relative;
 }
 
-.containerHeaderImageLaPecheALaCarpe1 img{
+.containerHeaderImageLaPecheALaCarpe4 img{
     position:absolute;
     width:100%;
     height:100%;
 }
 
-.containerHeaderImageLaPecheALaCarpe1 h1{
+.containerHeaderImageLaPecheALaCarpe4 h1{
     position:absolute;
     display:flex;
     justify-content:center;
@@ -179,7 +179,7 @@ ul {
     font-weight:normal;
 }
 
-.containerHeaderImageLaPecheALaCarpe1 p{
+.containerHeaderImageLaPecheALaCarpe4 p{
   
     position:absolute;
     top:calc(331.93 / var(--hauteurDiapoPecheALaCarpe) * 100%);
@@ -195,20 +195,20 @@ ul {
    
 }
 
-.containerHeaderImageLaPecheALaCarpe1 p span{
+.containerHeaderImageLaPecheALaCarpe4 p span{
     font-weight:bold;
 }
 
 /* ---------------------------------------MAIN --------------------------*/
 
-.containerMainPecheALaCarpe1{
-    height: calc(var(--hauteurMainPecheALaCarpe1) * var(--valeurViewport) / var(--variableLargeur));
+.containerMainPecheALaCarpe4{
+    height: calc(var(--hauteurMainPecheALaCarpe4) * var(--valeurViewport) / var(--variableLargeur));
     position:relative;
 }
 
-.containerMainPecheALaCarpe1 .coteGaucheLaPecheALaCarpe1 {
+.containerMainPecheALaCarpe4 .coteGaucheLaPecheALaCarpe4 {
     position:absolute;
-    top:calc(85 / var(--hauteurMainPecheALaCarpe1) * 100%);
+    top:calc(85 / var(--hauteurMainPecheALaCarpe4) * 100%);
     width:calc(454 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(81 * var(--valeurViewport) / var(--variableLargeur));
     left:calc(103 * var(--valeurViewport) / var(--variableLargeur));
@@ -222,15 +222,16 @@ ul {
 
     font-family: var(--deuxiemeFontFamily);
     color:var(--troisiemeCouleurTexte);
+    font-size: calc(60 * var(--valeurViewport) / var(--variableLargeur));
 
 }
 
 
 
 
-.etangLaPecheALaCarpe1 .imageEtangLaPecheALaCarpe1 img{
+.etangLaPecheALaCarpe4 .imageEtangLaPecheALaCarpe4 img{
     position:absolute;
-    top:calc(218 / var(--hauteurMainPecheALaCarpe1) * 100%);
+    top:calc(218 / var(--hauteurMainPecheALaCarpe4) * 100%);
     width:calc(766 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(542 * var(--valeurViewport) / var(--variableLargeur));
     left:calc(624 * var(--valeurViewport) / var(--variableLargeur));
@@ -240,9 +241,9 @@ ul {
 
 
 
-.etangLaPecheALaCarpe1 .imageEtangLaPecheALaCarpe1 .imageEtangLaPecheALaCarpe1H3{
+.etangLaPecheALaCarpe4 .imageEtangLaPecheALaCarpe4 .imageEtangLaPecheALaCarpe4H3{
     position:absolute;
-    top:calc(245 /  var(--hauteurMainPecheALaCarpe1) * 100%);
+    top:calc(245 /  var(--hauteurMainPecheALaCarpe4) * 100%);
     left:calc(103 * var(--valeurViewport) / var(--variableLargeur));
     width:calc(559 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(106 * var(--valeurViewport) / var(--variableLargeur));
@@ -255,7 +256,7 @@ ul {
     
 }
 
-.etangLaPecheALaCarpe1 .imageEtangLaPecheALaCarpe1 .imageEtangLaPecheALaCarpe1H3 h3{
+.etangLaPecheALaCarpe4 .imageEtangLaPecheALaCarpe4 .imageEtangLaPecheALaCarpe4H3 h3{
     position:absolute;
     margin-top:calc(23 * var(--valeurViewport) / var(--variableLargeur));
     margin-left:calc(39 * var(--valeurViewport) / var(--variableLargeur));
@@ -265,16 +266,16 @@ ul {
 
 }
 
-.containerMainPecheALaCarpe1 .coteGaucheLaPecheALaCarpe1 .etangLaPecheALaCarpe1 .paragrapheEtangPecheALaCarpe1{
+.containerMainPecheALaCarpe4 .coteGaucheLaPecheALaCarpe4 .etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4{
     position:absolute;
-    top:calc(429 /  var(--hauteurMainPecheALaCarpe1) * 100%);
+    top:calc(429 /  var(--hauteurMainPecheALaCarpe4) * 100%);
     left:calc(142 * var(--valeurViewport) / var(--variableLargeur));
     width:calc(410 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(301 * var(--valeurViewport) / var(--variableLargeur));
 
 }
 
-.containerMainPecheALaCarpe1 .coteGaucheLaPecheALaCarpe1 .etangLaPecheALaCarpe1 .paragrapheEtangPecheALaCarpe1 h4{
+.containerMainPecheALaCarpe4 .coteGaucheLaPecheALaCarpe4 .etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 h4{
     color:var(--deuxiemeCouleurTexte);
     font-family:var(--premiereFontFamily);
     font-weight:bold;
@@ -282,7 +283,7 @@ ul {
     line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur))
 }
 
-.etangLaPecheALaCarpe1 .paragrapheEtangPecheALaCarpe1 p{
+.etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 p{
     color:var(--troisiemeCouleurTexte);
     font-family:var(--premiereFontFamily);
     font-weight:normal;
@@ -294,7 +295,7 @@ ul {
  
 }
 
-.etangLaPecheALaCarpe1 .paragrapheEtangPecheALaCarpe1 p:nth-of-type(1){
+.etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 p:nth-of-type(1){
    
     margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur));
     text-transform:uppercase;
@@ -302,21 +303,21 @@ ul {
    
 }
 
-.etangLaPecheALaCarpe1 .paragrapheEtangPecheALaCarpe1 p:nth-of-type(1) span:nth-child(1){
+.etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 p:nth-of-type(1) span:nth-child(1){
     color:var(--deuxiemeCouleurTexte);
   
     /* margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur)); */
 
 }
 
-.etangLaPecheALaCarpe1 .paragrapheEtangPecheALaCarpe1 p:nth-of-type(1) sup:nth-of-type(1){
+.etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 p:nth-of-type(1) sup:nth-of-type(1){
    
     font-size:calc(10 * var(--valeurViewport) / var(--variableLargeur));
     color:var(--deuxiemeCouleurTexte);
     text-transform:uppercase;
 }
 
-.etangLaPecheALaCarpe1 .paragrapheEtangPecheALaCarpe1 p:nth-of-type(2){
+.etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 p:nth-of-type(2){
    
    
     margin-top:calc(21.8 * var(--valeurViewport) / var(--variableLargeur));
@@ -327,7 +328,7 @@ ul {
    
 }
 
-.etangLaPecheALaCarpe1 .paragrapheEtangPecheALaCarpe1 p:nth-of-type(3){
+.etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 p:nth-of-type(3){
 
 
     color:var(--deuxiemeCouleurTexte);
@@ -337,7 +338,7 @@ ul {
  
 }
 
-.imageRiviereLaPecheALaCarpe1{
+.imageRiviereLaPecheALaCarpe4{
     position:absolute;
     top:calc(798 * var(--valeurViewport) / var(--variableLargeur) );
     left:calc(103 * var(--valeurViewport) / var(--variableLargeur) );
@@ -345,14 +346,14 @@ ul {
     height:calc(542 * var(--valeurViewport) / var(--variableLargeur))
 }
 
-.imageRiviereLaPecheALaCarpe1 img{
+.imageRiviereLaPecheALaCarpe4 img{
     position:absolute;
     width:100%;
     height:100%;
     background: transparent url('img/iStock-1143165863.png') 0% 0% no-repeat padding-box;
 }
 
-.riviereLaPecheALaCarpe1 .imageRiviereLaPecheALaCarpe1 .imageRiviereLaPecheALaCarpe1H3{
+.riviereLaPecheALaCarpe4 .imageRiviereLaPecheALaCarpe4 .imageRiviereLaPecheALaCarpe4H3{
     position:absolute;
     top:calc(27 * var(--valeurViewport) / var(--variableLargeur));
     /* left:0; */
@@ -368,7 +369,7 @@ ul {
     
 }
 
-.riviereLaPecheALaCarpe1 .imageRiviereLaPecheALaCarpe1 .imageRiviereLaPecheALaCarpe1H3 h3{
+.riviereLaPecheALaCarpe4 .imageRiviereLaPecheALaCarpe4 .imageRiviereLaPecheALaCarpe4H3 h3{
     position:absolute;
     top:calc(10 * var(--valeurViewport) / var(--variableLargeur));
    
@@ -381,9 +382,9 @@ ul {
 
 }
 
-.riviereLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1{
+.riviereLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4{
     position:absolute;
-    top:calc(1009 /  var(--hauteurMainPecheALaCarpe1) * 100%);
+    top:calc(1009 /  var(--hauteurMainPecheALaCarpe4) * 100%);
     left:calc(941 * var(--valeurViewport) / var(--variableLargeur));
     width:calc(410 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(301 * var(--valeurViewport) / var(--variableLargeur));   
@@ -391,7 +392,7 @@ ul {
   
 }
 
-.riviereLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 h4{
+.riviereLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 h4{
   
     color:var(--deuxiemeCouleurTexte);
     font-family:var(--premiereFontFamily);
@@ -401,7 +402,7 @@ ul {
    
 }
 
-.riviereLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 p{
+.riviereLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p{
     color:var(--troisiemeCouleurTexte);
     font-family:var(--premiereFontFamily);
     font-weight:normal;
@@ -411,7 +412,7 @@ ul {
    
 }
 
-.riviereLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 p:nth-of-type(1){
+.riviereLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(1){
    
     margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur));
     text-transform:uppercase;
@@ -420,13 +421,13 @@ ul {
    
 }
 
-.riviereLaPecheALaCarpe1  .paragrapheRivierePecheALaCarpe1 span:nth-child(1){
+.riviereLaPecheALaCarpe4  .paragrapheRivierePecheALaCarpe4 span:nth-child(1){
     color:var(--deuxiemeCouleurTexte);
   
     /* margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur)); */
 }
 
-.riviereLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 p:nth-of-type(2){
+.riviereLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(2){
    
    
     margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur));
@@ -446,16 +447,16 @@ ul {
 
 
 
-.containerMainPecheALaCarpe1 .coteGaucheLaPecheALaCarpe1 .lacLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1{
+.containerMainPecheALaCarpe4 .coteGaucheLaPecheALaCarpe4 .lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4{
     position:absolute;
-    top:calc(1589 /  var(--hauteurMainPecheALaCarpe1) * 100%);
+    top:calc(1589 /  var(--hauteurMainPecheALaCarpe4) * 100%);
     left:calc(142 * var(--valeurViewport) / var(--variableLargeur));
     width:calc(410 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(301 * var(--valeurViewport) / var(--variableLargeur));
 
 }
 
-.containerMainPecheALaCarpe1 .coteGaucheLaPecheALaCarpe1 .lacLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 h4{
+.containerMainPecheALaCarpe4 .coteGaucheLaPecheALaCarpe4 .lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 h4{
     color:var(--deuxiemeCouleurTexte);
     font-family:var(--premiereFontFamily);
     font-weight:bold;
@@ -463,7 +464,7 @@ ul {
     line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur))
 }
 
-.lacLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 p{
+.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p{
     color:var(--troisiemeCouleurTexte);
     font-family:var(--premiereFontFamily);
     font-weight:normal;
@@ -473,7 +474,7 @@ ul {
  
 }
 
-/* .lacLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 p:nth-of-type(1){
+/* .lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(1){
    
     margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur));
     text-transform:uppercase;
@@ -482,7 +483,7 @@ ul {
    
 } */
 
-.lacLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 p:nth-of-type(1){
+.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(1){
    
 
     font-size:var(--fontSiza20px);
@@ -494,28 +495,28 @@ ul {
    
 } 
 
-.lacLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 p:nth-of-type(2){
+.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(2){
    
     margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur));
     text-transform:uppercase;
    
 }
 
-.lacLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 p:nth-of-type(2) span{
+.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(2) span{
    
     font-size:var(--fontSiza20px);
     color:var(--deuxiemeCouleurTexte);
 
 }
 
-.lacLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 p:nth-of-type(2) sup:nth-of-type(1){
+.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(2) sup:nth-of-type(1){
    
     font-size:calc(10 * var(--valeurViewport) / var(--variableLargeur));
     color:var(--deuxiemeCouleurTexte);
     text-transform:uppercase;
 }
 
-.lacLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 p:nth-of-type(3){
+.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(3){
    
    
     margin-top:calc(21.8 * var(--valeurViewport) / var(--variableLargeur));
@@ -524,7 +525,7 @@ ul {
   
 }
 
-.lacLaPecheALaCarpe1 .paragrapheRivierePecheALaCarpe1 p:nth-of-type(4){
+.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(4){
 
 
     color:var(--deuxiemeCouleurTexte);
@@ -534,7 +535,7 @@ ul {
  
 }
 
-.barreDuMilieuPecheALaCarpe1{
+.barreDuMilieuPecheALaCarpe4{
     position:absolute;
     width:calc(1 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(1700 * var(--valeurViewport) / var(--variableLargeur));
@@ -544,7 +545,7 @@ ul {
   
 }
 
-.coteDroitLaPecheALaCarpe1{
+.coteDroitLaPecheALaCarpe4{
     position:absolute;
     width:calc(412 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(955.62 * var(--valeurViewport) / var(--variableLargeur));
@@ -553,7 +554,7 @@ ul {
 }
 
 
-.coteDroitLaPecheALaCarpe1 img{
+.coteDroitLaPecheALaCarpe4 img{
     position:absolute;
     width:100%;
     height:100%;
@@ -562,7 +563,7 @@ ul {
 
 
 
-.containerBoutonPecheALaCarpe1{
+.containerBoutonPecheALaCarpe4{
     position:absolute;
     top:calc(103 * var(--valeurViewport)/ var(--variableLargeur));
     left:calc(1468 * var(--valeurViewport) / var(--variableLargeur));
@@ -571,7 +572,7 @@ ul {
 
 }
 
-.containerBoutonPecheALaCarpe1 .containerBoutonCarpe
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe
 {
     position:absolute;
 
@@ -580,7 +581,7 @@ ul {
     height:calc(50 * var(--valeurViewport)/ var(--variableLargeur))
 }
 
-.containerBoutonPecheALaCarpe1 .containerBoutonCarpe button
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button
 {
     position:absolute;
     color:var(--backgroundColor4);
@@ -594,32 +595,32 @@ ul {
     overflow:hidden;
 }
 
-.containerBoutonPecheALaCarpe1 .containerLieuDePeche
+.containerBoutonPecheALaCarpe4 .containerLieuDePeche
 {
     top:0;
     width:calc(235 * var(--valeurViewport)/ var(--variableLargeur));
 }
-.containerBoutonPecheALaCarpe1 .containerAdditifs 
+.containerBoutonPecheALaCarpe4 .containerAdditifs 
 {
     top:calc(80 * var(--valeurViewport)/ var(--variableLargeur));
     width:calc(385 * var(--valeurViewport)/ var(--variableLargeur));
 }
-.containerBoutonPecheALaCarpe1 .containerCanneAUtiliser
+.containerBoutonPecheALaCarpe4 .containerCanneAUtiliser
 {
     top:calc(160 * var(--valeurViewport)/ var(--variableLargeur));
     width:calc(243 * var(--valeurViewport)/ var(--variableLargeur));
 }
-.containerBoutonPecheALaCarpe1 .containerFilPourMoulinet 
+.containerBoutonPecheALaCarpe4 .containerFilPourMoulinet 
 {
     top:calc(240 * var(--valeurViewport)/ var(--variableLargeur));
     width:calc(263 * var(--valeurViewport)/ var(--variableLargeur));
 }
-.containerBoutonPecheALaCarpe1 .containerFilPourBasDeLigne {
+.containerBoutonPecheALaCarpe4 .containerFilPourBasDeLigne {
     top:calc(320 * var(--valeurViewport)/ var(--variableLargeur));
     width:calc(300 * var(--valeurViewport)/ var(--variableLargeur));
 }
 
-.containerBoutonPecheALaCarpe1 .containerBoutonCarpe button:before{
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button:before{
     content:"";
     position:absolute;
     width:100%;
@@ -632,12 +633,12 @@ ul {
     z-index:-1;
 }
 
-.containerBoutonPecheALaCarpe1 .containerBoutonCarpe button:hover:before{
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button:hover:before{
     transform:translateX(0)
 }
 
-.containerBoutonPecheALaCarpe1 .containerBoutonCarpe button:hover,
-.containerBoutonPecheALaCarpe1 .containerBoutonCarpe button:active{
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button:hover,
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button:active{
     color:var(--PremiereCouleurTexte);
     font-weight:bold;
     background-color:var(--troisiemeCouleurTexte);
