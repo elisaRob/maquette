@@ -1981,3 +1981,8 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus{
 input::placeholder{
     text-align: center;
 }
+
+.formTitle{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
