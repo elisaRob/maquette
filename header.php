@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="shortcut icon" href="/assets/img/logo_VM_actu.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styleCannes.css"> 
     <script src="app.js" defer></script>
 
 </head>
