@@ -1,0 +1,189 @@
+
+/*Cannes fox*/
+
+/*  Logo + Titre cannes */
+.image-section {
+    text-align: left;
+    display: flex;
+  }
+  
+  .section-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    margin: 0 10px;
+  }
+  
+
+
+/*CANNES FOX EOS*/
+
+  .test {
+    text-align: left;
+    display: flex;
+    padding: 5rem;
+  }
+  
+  .image-container1 {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .image-container1 img {
+    margin: 0 49px;
+  }
+
+.texte{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.FOX1{
+    display: flex;
+    margin: auto;
+    text-align: left;
+    background-color: bisque;
+    padding: 1px;
+    border-radius: 1px;
+    width: 368px;
+    height:240px;
+    margin-right: 49px;
+    margin-left: 180px;
+    flex-direction: column;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.FOX2{
+    display: flex;
+    margin: auto;
+    text-align: left;
+    background-color: bisque;
+    padding: 1px;
+    border-radius: 1px;
+    width: 368px;
+    height: 240px;
+    flex-direction: column;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.FOX3{
+    display: flex;
+    margin: auto;
+    text-align: left;
+    background-color: bisque;
+    padding: 1px;
+    border-radius: 1px;
+    width: 368px;
+    height: 240px;
+    flex-direction: column;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+/*LOGO + TITRE CAPERLAN*/
+
+  /*.image-section2 {
+    text-align: left;
+    display: flex;
+    padding: 5rem;
+  }
+
+  .section-title2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .image-container2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container2 img {
+    margin: 0 10px;
+  }
+  .caperlan {
+    text-align: left;
+    display: flex;
+    padding: 5rem;
+  }
+/* CANNES CAPERLAN */
+  
+  /*.image-container3 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container3 img {
+    margin: 0 10px;
+  }
+
+.texte1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 550px;
+    margin-left: 80px;
+}
+
+.caperlan1{
+    display: flex;
+    margin: auto;
+    text-align: left;
+    background-color: bisque;
+    padding: 1px;
+    border-radius: 1px;
+    width: 368px;
+    height:240px;
+    flex-direction: column;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.caperlan2{
+    display: flex;
+    margin: auto;
+    text-align: left;
+    background-color: bisque;
+    padding: 1px;
+    border-radius: 1px;
+    width: 368px;
+    height: 240px;
+    flex-direction: column;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.caperlan3{
+    display: flex;
+    margin: auto;
+    text-align: left;
+    background-color: bisque;
+    padding: 1px;
+    border-radius: 1px;
+    width: 368px;
+    height: 240px;
+    flex-direction: column;
+    font-family: 'Cinzel Decorative', cursive;
+}*/
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image {
+  margin-right: 10px;
+}
+
+.text {
+  width: 300px;
+}
