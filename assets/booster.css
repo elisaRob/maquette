@@ -6,7 +6,9 @@
     --hauteurMainPecheALaCarpe1:2004.63;
     --fontSize50px:calc(50 * var(--valeurViewport) / var(--variableLargeur));
     --fontSize30px:calc(30 * var(--valeurViewport) / var(--variableLargeur));
-    --backgroundColor6:#F8F5EF
+    --backgroundColor6:#F8F5EF;
+
+    --hauterMainBooster:2160;
 }
 
 *{
@@ -64,4 +66,24 @@
 .containerHeaderImageLaPecheALaCarpe1 p span{
     font-weight:bold;
 } 
+
+/*******************************CONTAINER MAIN BOOSER *******************/
+
+.containerMainBooster{
+    height: calc(var(--hauterMainBooster) * var(--valeurViewport) / var(--variableLargeur));
+    position:relative;
+}
+
+.containerMainBooster h2{
+    position:absolute;
+    top:calc(85 / var(--hauterMainBooster) * 100%);
+    width:calc(852 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(81 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(81 * var(--valeurViewport) / var(--variableLargeur));
+    font-size:calc(60 * var(--valeurViewport) / var(--variableLargeur));
+    font-family:var(--deuxiemeFontFamily);
+    color:var(--deuxiemeCouleurTexte);
+    line-height:calc(70 * var(--valeurViewport) / var(--variableLargeur)) ;
+   
+}
 
