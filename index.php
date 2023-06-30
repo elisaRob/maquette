@@ -5,13 +5,13 @@
 
         <div class="containerHeaderImage">
             <div class="containerDiapo1">
-               <img class="diaporamaImage" src="assets/img/diaporama2.jpg" alt="image">
-               <img class="diaporamaImage active" src="assets/img/visu_diaporama1@2x.png" alt="image"> 
+               <img class="diaporamaImage active" src="assets/img/diaporama2.jpg" alt="image">
+               <img class="diaporamaImage" src="assets/img/visu_diaporama1@2x.png" alt="image"> 
                <img class="diaporamaImage" src="assets/img/diaporama3.png" alt="image">
                 <img class="diaporamaImage" src="assets/img/diaporama4.jpg" alt="image">
                 <div class="containerH2DiaporamaImage ">
-                    <h2 class="h2DiaporamaImage">La pêche à la carpe</h2>
-                    <h2 class="h2DiaporamaImage active">La pêche au silure</h2>
+                    <h2 class="h2DiaporamaImage active">La pêche à la carpe</h2>
+                    <h2 class="h2DiaporamaImage">La pêche au silure</h2>
                     <h2 class="h2DiaporamaImage">Le matériels et appâts</h2>
                     <h2 class="h2DiaporamaImage">Blog</h2>
                 </div>
@@ -73,8 +73,8 @@
 
                 <div class="containerTraitEtChiffreADroiteDiaporamaImage">
                     <span class="trait1"></span>
-                    <a href="#" class=" chiffre chiffreA1" data-chiffre="1"><span class="chiffreSpan chiffre1">1</span></a>
-                    <a href="#" class="chiffre chiffreA2" data-chiffre="2"><span class="chiffreSpan chiffre2 active">2</span></a>
+                    <a href="#" class=" chiffre chiffreA1" data-chiffre="1"><span class="chiffreSpan chiffre1 active">1</span></a>
+                    <a href="#" class="chiffre chiffreA2" data-chiffre="2"><span class="chiffreSpan chiffre2">2</span></a>
                     <a href="#" class=" chiffre chiffreA3" data-chiffre="3"><span class="chiffreSpan chiffre3">3</span></a>
                     <a href="#" class="chiffre chiffreA4" data-chiffre="4"><span class="chiffreSpan chiffre4">4</span></a>
                     <span class="trait2"></span>
