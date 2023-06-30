@@ -34,18 +34,19 @@
         </div>
         <div>
             
-            <input type="checkbox" name="check" id="">
-            <label for="check">Veuillez valider les conditions générales</label>
-        </div>
-        <div>
-            
-            <input type="checkbox" name="check" id="">
-            <label for="check">En validant ce formulaire, vous acceptez d'être contacté</label>
-        </div>
-        <div class="soumettre">
-            <button class="btnForm" type="submit">Soumettre</button>
-        </div>
-    </form>
+                <input type="checkbox" name="check" id="">
+                <label for="check">Veuillez valider les conditions générales</label>
+            </div>
+            <div>
+                <input type="checkbox" name="check" id="">
+                <label for="check">En validant ce formulaire, vous acceptez d'être contacté</label>
+            </div>
+            <div class="soumettre">
+                <button class="btnForm" type="submit">Soumettre</button>
+            </div>
+        </form>
+        <h2 class="formTitle">Formulaire de contact <br> <br> <br> </h2>
+    <!-- </div> -->
 </section>
 <?php
     require_once 'footer.php';
