@@ -5,7 +5,7 @@
 
 <section class="section-form">
     <div id="text-form">
-        <h2>Ne sois pas timide</h2>
+        <h2><b>Ne sois pas timide<b></h2>
         <p class="form"><b><br>N'hésites pas à nous contacter.<b><br><br> 
         <b>Nous sommes toujours ouvert à la discussion ou autres remarques.
         N'oublie pas tu peux nous suivre sur les réseaux.<b></p>
