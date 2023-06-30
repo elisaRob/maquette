@@ -1,5 +1,4 @@
 <?php
-<<<<<<< Updated upstream
     require_once 'head.php';
 ?>
 <link rel="stylesheet" href="styleCannes.css">
@@ -7,10 +6,6 @@
     require_once 'header.php';
 ?>
 
-=======
-  require_once 'header.php';
-?>
->>>>>>> Stashed changes
 <!--------------------------------CANNES FOX EOS X3 HORIZON X5 HORIZON------------------------------------------------------------------------------------------------>
   
 
