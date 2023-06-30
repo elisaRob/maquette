@@ -1926,7 +1926,6 @@ opacity: 0.8;
 background-image: radial-gradient(circle at center center, #938A56, #ccc), repeating-radial-gradient(circle at center center, #938A56, #938A56, 13px, transparent 26px, transparent 13px);
 background-blend-mode: multiply;
 
-  
 }
 #text-form{
     width: 40%;
@@ -1993,4 +1992,9 @@ input::placeholder{
 .formTitle{
     writing-mode: vertical-rl;
     text-orientation: mixed;
+}
+
+.secForm{
+    display: flex;
+    flex-direction: row;
 }
