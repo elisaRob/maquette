@@ -14,7 +14,7 @@
             <li><a href="pechealacarpe_1.php">pêche à la carpe</a></li>
             <li><a href="">pêche au silure </a></li>
             <li><a href="">matériel et appâts </a></li>
-            <li><a href="">blog</a></li>
+            <li><a href="">blogue</a></li>
             <li><a href="">qui sommes-nous?</a></li>
             <li><a href="form.php">contact</a></li>
         </ul>
