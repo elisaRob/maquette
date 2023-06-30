@@ -1910,13 +1910,13 @@
     
 }
 
-/* Contact en mobil first*/ 
+/* Contact */ 
 
 .section-form{
     width: 100%;
     height: calc(100vh - calc(102 * var(--valeurViewport) / var(--variableLargeur)));
-    /* display: flex; */
-    /* flex-direction: row; */
+    display: flex;
+    flex-direction: row;
     /* border: red 1px solid; */
     /* background-color: #FD7E23; */
     font-family:var(--premiereFontFamily)
@@ -1924,7 +1924,7 @@
   
 }
 #text-form{
-    /* width: 40%; */
+    width: 40%;
     height: 100vh;
     
 }
