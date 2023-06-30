@@ -5,11 +5,13 @@
 .image-section {
     text-align: left;
     display: flex;
+    padding: 50px;
   }
   
   .section-title {
     font-size: 30px;
     margin-bottom: 20px;
+    padding: 20px;
   }
   
   .image-container {
@@ -49,7 +51,6 @@
 }
 
 .FOX1{
-    display: flex;
     margin: auto;
     text-align: left;
     background-color: bisque;
@@ -59,12 +60,10 @@
     height:240px;
     margin-right: 49px;
     margin-left: 180px;
-    flex-direction: column;
     font-family: 'Cinzel Decorative', cursive;
 }
 
 .FOX2{
-    display: flex;
     margin: auto;
     text-align: left;
     background-color: bisque;
@@ -72,11 +71,9 @@
     border-radius: 1px;
     width: 368px;
     height: 240px;
-    flex-direction: column;
     font-family: 'Cinzel Decorative', cursive;
 }
 .FOX3{
-    display: flex;
     margin: auto;
     text-align: left;
     background-color: bisque;
@@ -84,7 +81,6 @@
     border-radius: 1px;
     width: 368px;
     height: 240px;
-    flex-direction: column;
     font-family: 'Cinzel Decorative', cursive;
 }
 
@@ -172,7 +168,7 @@
 }*/
 
 
-.container {
+/*.container {
   display: flex;
   align-items: center;
   justify-content: center;
