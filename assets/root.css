@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&family=Lobster&display=swap');
+
+
+:root{
+    --variableLargeur:1920;
+
+  
+
+    --hauteurDiaporama:943;
+    --hauteurQuiSommesNous:457.5;
+    --hauteurPechesTypes:784;
+    --hauteurCarte:1068;
+    --hauteurActualites:896;
+    --hauteurBlog:675;
+    --hauteurSponsor:202;
+    --hauteurFooter1:338.77;
+    --hauteurFooter2:47.34;
+    --valeurViewport:100vw;
+    --premiereFontFamily:'Asap', sans-serif;
+    --deuxiemeFontFamily:'Cinzel Decorative';
+    --troisiemeFontFamily:'Asap Condensed', sans-serif;
+    --quatriemeFontFamily:'Asap Condensed', sans-serif;
+    --cinquiemeFontFamily:'Asap', sans-serif;
+    --fontSiza20px:calc(20 * var(--valeurViewport) / var(--variableLargeur));
+    --fontSize14px:calc(14 * var(--valeurViewport) / var(--variableLargeur));
+    --fontSize20px:calc(20 * var(--valeurViewport) / var(--variableLargeur));
+    --fontSize30px:calc(30 * var(--valeurViewport) / var(--variableLargeur));
+    --PremiereCouleurTexte:#ffffff;
+    --deuxiemeCouleurTexte:#4D4D4D;
+    --troisiemeCouleurTexte:#938A56;
+    --quatriemeCouleurTexte:#FD7E23;
+    --backgroundColor1:#F8F5EF;
+    --background-color2:#F0EDE9;
+    --backgroundColor4:#222222;
+    --backgroundColor3:#333B1F;
+    --backgroundColor5:#000000;
+    --lineHeight20px:calc(20 * var(--valeurViewport) / var(--variableLargeur));
+   
+ 
+}

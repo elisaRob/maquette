@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="shortcut icon" href="/assets/img/logo_VM_actu.svg" type="image/x-icon">
-    <link rel="stylesheet" href="styleCannes.css">
-    <link rel="stylesheet"  href="stylepechealacarpe_4.css">
-    <script src="app.js" defer></script>
-
+<link rel="stylesheet" href="assets/header.css">
 </head>
 <body>
     <nav>
@@ -23,7 +11,7 @@
                 </a>
                 
             </li>
-            <li><a href="">pêche à la carpe</a></li>
+            <li><a href="pechealacarpe_1.php">pêche à la carpe</a></li>
             <li><a href="">pêche au silure </a></li>
             <li><a href="">matériel et appâts </a></li>
             <li><a href="">blog</a></li>

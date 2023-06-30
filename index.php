@@ -1,4 +1,7 @@
-<?php require_once("header.php") ?>
+<?php require_once 'head.php'?>
+<link rel="stylesheet" href="assets/style.css">
+<?php require_once 'header.php' ?>
+
         <div class="containerHeaderImage">
             <div class="containerDiapo1">
                <img class="diaporamaImage" src="assets/img/diaporama2.jpg" alt="image">

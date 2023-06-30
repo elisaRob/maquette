@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&family=Lobster&display=swap');
+
+
+:root{
+    --variableLargeur:1920;
+
+  
+
+    --hauteurDiaporama:943;
+    --hauteurQuiSommesNous:457.5;
+    --hauteurPechesTypes:784;
+    --hauteurCarte:1068;
+    --hauteurActualites:896;
+    --hauteurBlog:675;
+    --hauteurSponsor:202;
+    --hauteurFooter1:338.77;
+    --hauteurFooter2:47.34;
+    --valeurViewport:100vw;
+    --premiereFontFamily:'Asap', sans-serif;
+    --deuxiemeFontFamily:'Cinzel Decorative';
+    --troisiemeFontFamily:'Asap Condensed', sans-serif;
+    --quatriemeFontFamily:'Asap Condensed', sans-serif;
+    --cinquiemeFontFamily:'Asap', sans-serif;
+    --fontSiza20px:calc(20 * var(--valeurViewport) / var(--variableLargeur));
+    --fontSize14px:calc(14 * var(--valeurViewport) / var(--variableLargeur));
+    --fontSize20px:calc(20 * var(--valeurViewport) / var(--variableLargeur));
+    --fontSize30px:calc(30 * var(--valeurViewport) / var(--variableLargeur));
+    --PremiereCouleurTexte:#ffffff;
+    --deuxiemeCouleurTexte:#4D4D4D;
+    --troisiemeCouleurTexte:#938A56;
+    --quatriemeCouleurTexte:#FD7E23;
+    --backgroundColor1:#F8F5EF;
+    --background-color2:#F0EDE9;
+    --backgroundColor4:#222222;
+    --backgroundColor3:#333B1F;
+    --backgroundColor5:#000000;
+    --lineHeight20px:calc(20 * var(--valeurViewport) / var(--variableLargeur));
+   
+ 
+}
+nav{
+    /* height:100px; */
+    height:calc(100 * var(--valeurViewport) / 1920) ;
+    width:100%;
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:999;
+    background-color: var(--PremiereCouleurTexte);
+
+   
+   
+   
+  
+}
+
+nav ul{
+  
+    display:flex;
+    align-items:center;
+    height:100%;
+  
+    
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li:nth-child(2){
+    /* margin-left:calc(800 / var(--variableLargeur)  * 100%); */
+    margin-left:auto;
+  
+   
+}
+
+nav ul li svg{
+    width:calc(65 * 100vw / 1920);
+    height:auto;
+}
+
+
+
+nav ul li:nth-child(7){
+    
+    margin-right:calc( 73 / var(--variableLargeur) * 100%) ;
+    /* margin-right:calc(73 * 100vw / 1920); */
+  
+ }
+
+nav ul li:not(li:nth-child(7)) {
+    padding-right:calc(45 / var(--variableLargeur) * 100%) ;
+}  
+
+nav ul li{
+    height:100%;
+   
+}
+
+nav ul li a{
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+
+
+nav ul li a{
+    font-size:var(--fontSiza20px);
+    text-decoration:none;
+    color:var(--deuxiemeCouleurTexte);
+    text-transform:uppercase;
+    line-height:100px;
+    font-family:var(--premiereFontFamily);
+    width:clamp(calc(1048 / var(--variableLargeur) * 100%));
+    white-space : nowrap;
+    position:relative;
+}
+nav ul li:first-child{
+    position:absolute;
+    top:0;
+    height:100%;
+
+}
+
+nav ul li:first-child a{
+    height:100%;
+    position:absolute;
+    top:0;
+}
+
+nav ul li:first-child svg{
+    position:absolute;
+    top:0;
+    height:100%;
+}
+
+nav ul li a:before{
+    content:"";
+    position:absolute;
+    top:0 ;
+    left:0%;
+    width:0%;
+    height:95%;
+    border-bottom:calc(6 * var(--valeurViewport)/var(--variableLargeur))  solid var(--troisiemeCouleurTexte);
+    transition:width 0.5s;
+}
+
+nav ul li a:hover:before{
+    left:0;
+    width:100%;
+}
+
+ul {
+    padding-left:calc(80 / var(--variableLargeur) * 100%);
+} 

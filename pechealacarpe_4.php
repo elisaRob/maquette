@@ -1,7 +1,10 @@
 <?php
+    require_once 'head.php';
+?>
+<link rel="stylesheet"  href="stylepechealacarpe_4.css">
+<?php
     require_once 'header.php';
 ?>
-
             <div class="containerHeaderImageLaPecheALaCarpe1">
                 <img src="assets/img/visu_int_carpe.png" alt="bannière">
                 <h1>La pêche à la carpe</h1>
