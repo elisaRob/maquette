@@ -1,5 +1,6 @@
 <?php require_once 'head.php'?>
 <link rel="stylesheet" href="assets/style.css">
+<script src="app.js" defer></script>
 <?php require_once 'header.php' ?>
 
         <div class="containerHeaderImage">

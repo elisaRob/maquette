@@ -6,5 +6,5 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="/assets/img/logo_VM_actu.svg" type="image/x-icon">
-    <script src="app.js" defer></script>
+    
     
