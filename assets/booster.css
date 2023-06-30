@@ -1,0 +1,67 @@
+
+/*************************BANIERE ****************************************/
+
+:root{
+    --hauteurDiapoPecheALaCarpe:471.93;
+    --hauteurMainPecheALaCarpe1:2004.63;
+    --fontSize50px:calc(50 * var(--valeurViewport) / var(--variableLargeur));
+    --fontSize30px:calc(30 * var(--valeurViewport) / var(--variableLargeur));
+    --backgroundColor6:#F8F5EF
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.containerHeaderImageLaPecheALaCarpe1{
+    height: calc(var(--hauteurDiapoPecheALaCarpe) * var(--valeurViewport) / var(--variableLargeur));
+    position:relative;
+}
+
+.containerHeaderImageLaPecheALaCarpe1{
+    height: calc(var(--hauteurDiapoPecheALaCarpe) * var(--valeurViewport) / var(--variableLargeur));
+    position:relative;
+}
+
+.containerHeaderImageLaPecheALaCarpe1 img{
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.containerHeaderImageLaPecheALaCarpe1 h1{
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    top:calc(138.93 / var(--hauteurDiapoPecheALaCarpe) * 100%);
+    width:100%;
+    height:calc(158 * var(--valeurViewport) / var(--variableLargeur));
+   
+    color:var(--PremiereCouleurTexte);
+    font-family:var(--deuxiemeFontFamily);
+    font-size:calc(117 * var(--valeurViewport) / var(--variableLargeur));
+    font-weight:normal;
+}
+
+
+.containerHeaderImageLaPecheALaCarpe1 p{
+  
+    position:absolute;
+    top:calc(331.93 / var(--hauteurDiapoPecheALaCarpe) * 100%);
+    width:calc(240 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(23 * var(--valeurViewport) / var(--variableLargeur));
+    width:100%;
+    display:flex;
+    justify-content:center;
+    color:var(--PremiereCouleurTexte);
+    font-family:var(--premiereFontFamily);
+    font-weight:normal;
+    font-size:var(--fontSiza20px);
+   
+}
+
+.containerHeaderImageLaPecheALaCarpe1 p span{
+    font-weight:bold;
+} 
+
