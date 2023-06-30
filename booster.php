@@ -9,7 +9,7 @@
 </div>
 
 <div class="containerMainBooster">
-    <h2>booster, Dips, flash smoke</h2>
+    <h2 class="h21">booster, Dips, flash smoke</h2>
 
     <div class=" containerImagesEtTexteBooster1">
         <!-- <div class="containerImagesBooster containerImagesBooster1"> -->
@@ -37,62 +37,70 @@
                 <div class="containerInterieur">
                     <h3>DIP  </h3>
                     <p>Dip Attractor Signal Starbaits Gamme performance.
-                         Solution de trempage 
-                        attractive (identification naturelle, source nutritive,…)l</p>
+                         Solution de trempage attractive (identification naturelle, source nutritive,…)</p>
                 </div>
             </div>
             <div class="containerQuestion containerQuestion2">
-                <p>Pourquoi utiliser un booster ? <br>A quelle saison ?</p>
+                <p>Pourquoi utiliser des dips ?  <br>A quelle saison ?</p>
             </div>
         <!-- </div> -->
     </div>
 
-    <div class="containerImagesEtTexteBooster">
-        <div class="containerImagesBooster">
+    <div class="containerImagesEtTexteBooster containerImagesEtTexteBooster3">
+       
             <img src="assets/img/visu_flash_smoke.png" alt="booster">
-            <div class="containerDescription">
+            <div class="containerDescription containerDescription3">
+                <div class="containerInterieur">
+                    <h3>flash smoke  </h3>
+                    <p>Ce liquide mystérieux contient des
+                         stimulateurs de goût qui soutiennent 
+                        la gourmandise de la carpe pour l’amener à l’appât</p>
+                </div>
+            </div>
+            <div class="containerQuestion containerQuestion3">
+                <p>Pourquoi utiliser un flash smoke ? A quelle saison ?</p>
+            </div>
+      
+    </div>
+
+    <h2 class="h22">Stick, sac soluble, recharge pva mesh</h2>
+
+    <div class="containerImagesEtTexteBooster containerImagesEtTexteBooster4">
+        <img src="assets/img/visu_stick.png" alt="booster">
+        <div class="containerDescription containerDescription4">
+            <div class="containerInterieur">
+                <h3>stick  </h3>
+                <p>Différentes tailles disponibles : <br>
+                    15-18mm <br>
+                    22mm <br>
+                    25mm <br>
+                    26mm</p>
+            </div>
+        </div>
+        <div class="containerQuestion containerQuestion4">
+                <p>Pourquoi utiliser un stick ? <br>
+                 Quand ? Quelle fréquentation ?</p>
+        </div>
+    </div>
+
+     <div class="containerImagesEtTexteBooster containerImagesEtTexteBooster5">
+
+        <img src="assets/img/visu_sac_soluble.png" alt="booster">
+        <div class="containerDescription containerDescription5">
+            <div class="containerInterieur containerInterieur5">
                 <h3>Booster </h3>
                 <p>Tandem Baits Carp Food PVA Booster,
                     Appâts pour pêche de la Carpe,
                     Accessoires de Pêche Carpe Professionnel</p>
-            </div>
-            <div class="containerQuestion">
-                <p>Pourquoi utiliser un booster ? A quelle saison ?</p>
-            </div>
+        </div>  
         </div>
+        <div class="containerQuestion containerQuestion5">
+            <p>Pourquoi utiliser un booster ? A quelle saison ?</p>
+        </div>
+       
     </div>
 
-    <div class="containerImagesEtTexteBooster">
-        <div class="containerImagesBooster">
-            <img src="assets/img/visu_stick.png" alt="booster">
-            <div class="containerDescription">
-                <h3>Booster </h3>
-                <p>Tandem Baits Carp Food PVA Booster,
-                    Appâts pour pêche de la Carpe,
-                    Accessoires de Pêche Carpe Professionnel</p>
-            </div>
-            <div class="containerQuestion">
-                <p>Pourquoi utiliser un booster ? A quelle saison ?</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="containerImagesEtTexteBooster">
-        <div class="containerImagesBooster">
-            <img src="assets/img/visu_sac_solid.png" alt="booster">
-            <div class="containerDescription">
-                <h3>Booster </h3>
-                <p>Tandem Baits Carp Food PVA Booster,
-                    Appâts pour pêche de la Carpe,
-                    Accessoires de Pêche Carpe Professionnel</p>
-            </div>
-            <div class="containerQuestion">
-                <p>Pourquoi utiliser un booster ? A quelle saison ?</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="containerImagesEtTexteBooster">
+    <!-- <div class="containerImagesEtTexteBooster">
         <div class="containerImagesBooster">
             <img src="assets/img/visu_pva.png" alt="booster">
             <div class="containerDescription">
@@ -104,7 +112,7 @@
             <div class="containerQuestion">
                 <p>Pourquoi utiliser un booster ? A quelle saison ?</p>
             </div>
-        </div>
+        </div> -->
     </div>
 
 
