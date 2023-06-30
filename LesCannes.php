@@ -15,7 +15,7 @@
 
 
     <div class="image-container">
-      <img src="./images/logo_fox.png" alt="FOX">
+      <img src="assets/img/logo_fox.png" alt="FOX">
     </div>
   </section>
   
@@ -23,9 +23,9 @@
     
     
     <div class="image-container1">
-      <img src="./images/visu_eos.png" alt="Image 1" width="411px" height="542px">
-      <img src="./images/visu_horizon_x3.png" alt="Image 2" width="411px" height="542px" >
-      <img src="./images/visu_horizon_x5.png" alt="Image 3" width="411px" height="542px">
+      <img src="assets/img/visu_eos.png" alt="Image 1" width="411px" height="542px">
+      <img src="assets/img/visu_horizon_x3.png" alt="Image 2" width="411px" height="542px" >
+      <img src="assets/img/visu_horizon_x5.png" alt="Image 3" width="411px" height="542px">
     </div>    
   </section>
 
@@ -56,81 +56,6 @@
       </div>
   </section>
 
-<!-------------------------CANNES CAPERLAN---------------------------------->
-<!--<section class="image-section2">
-    <h2 class="section-title2">Cannes</h2>
-
-
-    <div class="image-container2">
-      <img src="./images/logo_caperlan.png" alt="CAPERLAN">
-    </div>
-  </section>
-  
-  <section class="caperlan">
-    
-    
-    <div class="image-container3">
-      <img src="./images/visu_xtrem500.png" alt="xtrem500" width="411px" height="542px">
-      <img src="./images/visu_xtrem500.png" alt="xtrem9" width="411px" height="542px" >
-      <img src="./images/visu_xtrem500.png" alt="xtrem900" width="411px" height="542px">
-    </div>    
-  </section>
-
-  <section class="texte1">
-
-    <div class="caperlan1">
-      <h1>XTREM500</h1>
-
-      <p>10'12'13'<br>
-      Ces cannes sont parfaites pour les pêcheurs qui s'initient à la pratique<br> 
-      de la pêche à la carpe.Budget serré mais produit d'une qualité </p>
-    </div>  
-
-    <div class="caperlan2">
-        <h1>XTREM9</h1>
-
-      <p>10'12'13'<br>
-      Ces cannes sont parfaites pour les pêcheurs qui s'initient à la pratique<br> 
-      de la pêche à la carpe.Budget serré mais produit d'une qualité </p>
-    </div>
-    
-    <div class="caperlan3">
-         <h1>XTREM900</h1>
-
-      <p>10'12'13'<br>
-      Ces cannes sont parfaites pour les pêcheurs qui s'initient à la pratique<br> 
-      de la pêche à la carpe.Budget serré mais produit d'une qualité </p>
-      </div>
-  </section>
--->
-
-<div class="container">
-  <div class="image">
-    <img src="./images/visu_horizon_x3.png" alt="eos">
-  </div>
-  <div class="text">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac hendrerit justo. Fusce sagittis, nunc nec mollis luctus, tellus mauris porta augue, vitae rhoncus nunc urna nec massa.</p>
-  </div>
-</div>
-
-<div class="container">
-  <div class="image">
-    <img src="./images/visu_horizon_x5.png" alt="Image 2">
-  </div>
-  <div class="text">
-    <p>Etiam consectetur nibh vitae magna rhoncus bibendum. In porttitor ante vitae lorem semper, et accumsan velit tincidunt. Sed fermentum, lorem et eleifend ultrices, sem nunc pulvinar tellus.</p>
-  </div>
-</div>
-
-<div class="container">
-  <div class="image">
-    <img src="./images/visu_eos.png" alt="Image 3">
-  </div>
-  <div class="text">
-    <p>Vivamus vel tortor in velit hendrerit tempus. Sed id nibh at nisi tristique hendrerit. Curabitur id mauris vitae odio vestibulum congue ac vel turpis.</p>
-  </div>
-</div>
-<?php require_once 'footer.php'?>
-
-</body>
-</html>
+<?php
+require_once 'footer.php';
+?>
