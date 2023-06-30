@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="assets/header.css">
+<link rel="stylesheet" href="assets/footer.css">
 </head>
 <body>
     <nav>

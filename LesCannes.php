@@ -130,6 +130,7 @@
     <p>Vivamus vel tortor in velit hendrerit tempus. Sed id nibh at nisi tristique hendrerit. Curabitur id mauris vitae odio vestibulum congue ac vel turpis.</p>
   </div>
 </div>
+<?php require_once 'footer.php'?>
 
 </body>
 </html>
