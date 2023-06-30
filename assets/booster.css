@@ -84,6 +84,163 @@
     font-family:var(--deuxiemeFontFamily);
     color:var(--deuxiemeCouleurTexte);
     line-height:calc(70 * var(--valeurViewport) / var(--variableLargeur)) ;
+    font-weight:400
    
 }
 
+/***general image sauf 1 ***/
+
+.containerImagesEtTexteBooster{
+    width:calc(411 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(823 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+/***premiere image ***/
+
+.containerImagesEtTexteBooster1{
+    position:absolute;
+    top:calc(222 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(431 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(81 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(823 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+
+.containerImagesEtTexteBooster1 img{
+    position:absolute;
+    top:0;
+    width:calc(411 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(101 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(542 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.containerDescription1{
+    position:absolute;
+    top:calc(504 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(368 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(103 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(226 * var(--valeurViewport) / var(--variableLargeur));
+    background-color: var(--background-color2);
+}
+
+.containerDescription1 .containerInterieur{
+    position:absolute;
+    top:calc(40 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(300 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(39 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(186 * var(--valeurViewport) / var(--variableLargeur));
+    background-color: var(--background-color2);
+}
+
+.containerDescription1 .containerInterieur h3{
+    font-size:var(--fontSize30px);
+    font-family:var(--deuxiemeFontFamily);
+    color:var(--troisiemeCouleurTexte);
+    line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur)) ;
+    font-weight:400
+}
+
+.containerDescription1 .containerInterieur p{
+    font-size:var(--fontSize20px);
+    font-family:var(--premiereFontFamily);
+    color:var(--deuxiemeCouleurTexte);
+    line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur)) ;
+    font-weight:400
+}
+
+.containerImagesEtTexteBooster1 .containerQuestion{
+    position:absolute;
+    bottom:calc(0 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(368 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(103 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(133 * var(--valeurViewport) / var(--variableLargeur));
+    background-color: var(--troisiemeCouleurTexte);
+}
+
+.containerImagesEtTexteBooster1 .containerQuestion p{
+    position:absolute;
+    bottom:0;
+    width:calc(300 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(39 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(93 * var(--valeurViewport) / var(--variableLargeur));
+    font-size:var(--fontSize20px);
+    font-family:var(--premiereFontFamily);
+    color:var(--PremiereCouleurTexte);
+    line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur)) ;
+    font-weight:bold;
+}
+
+
+/***deuxieme image***/
+
+
+.containerImagesEtTexteBooster2{
+    position:absolute;
+    top:calc(222 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(530 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+
+.containerImagesEtTexteBooster2 img{
+    position:absolute;
+    top:0;
+    width:100%;
+    left:calc(101 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(542 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.containerDescription2{
+    position:absolute;
+    top:calc(504 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(368 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(103 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(226 * var(--valeurViewport) / var(--variableLargeur));
+    background-color: var(--background-color2);
+}
+
+.containerDescription2 .containerInterieur{
+    position:absolute;
+    top:calc(40 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(300 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(39 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(186 * var(--valeurViewport) / var(--variableLargeur));
+    background-color: var(--background-color2);
+}
+
+.containerDescription2 .containerInterieur h3{
+    font-size:var(--fontSize30px);
+    font-family:var(--deuxiemeFontFamily);
+    color:var(--troisiemeCouleurTexte);
+    line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur)) ;
+    font-weight:400
+}
+
+.containerDescription2 .containerInterieur p{
+    font-size:var(--fontSize20px);
+    font-family:var(--premiereFontFamily);
+    color:var(--deuxiemeCouleurTexte);
+    line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur)) ;
+    font-weight:400
+}
+
+.containerImagesEtTexteBooster2 .containerQuestion{
+    position:absolute;
+    bottom:calc(0 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(368 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(103 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(133 * var(--valeurViewport) / var(--variableLargeur));
+    background-color: var(--troisiemeCouleurTexte);
+}
+
+.containerImagesEtTexteBooster2 .containerQuestion p{
+    position:absolute;
+    bottom:0;
+    width:calc(300 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(39 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(93 * var(--valeurViewport) / var(--variableLargeur));
+    font-size:var(--fontSize20px);
+    font-family:var(--premiereFontFamily);
+    color:var(--PremiereCouleurTexte);
+    line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur)) ;
+    font-weight:bold;
+}
