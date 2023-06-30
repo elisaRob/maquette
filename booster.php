@@ -11,34 +11,40 @@
 <div class="containerMainBooster">
     <h2>booster, Dips, flash smoke</h2>
 
-    <div class="containerImagesEtTexteBooster">
-        <div class="containerImagesBooster">
+    <div class=" containerImagesEtTexteBooster1">
+        <!-- <div class="containerImagesBooster containerImagesBooster1"> -->
             <img src="assets/img/visu_booster.png" alt="booster">
-            <div class="containerDescription">
-                <h3>Booster </h3>
-                <p>Tandem Baits Carp Food PVA Booster,
-                    Appâts pour pêche de la Carpe,
-                    Accessoires de Pêche Carpe Professionnel</p>
-            </div>
-            <div class="containerQuestion">
-                <p>Pourquoi utiliser un booster ? A quelle saison ?</p>
-            </div>
+            <div class="containerDescription containerDescription1">
+                <div class="containerInterieur">
+                    <h3>Booster </h3>
+                    <p>Tandem Baits Carp Food PVA Booster,
+                        Appâts pour pêche de la Carpe,
+                        Accessoires de Pêche Carpe Professionnel</p>
+                </div>
+               
+            <!-- </div> -->
         </div>
+            <div class="containerQuestion">
+                <p>Pourquoi utiliser un booster ?<br> A quelle saison ?</p>
+            </div>
+        
     </div>
 
-    <div class="containerImagesEtTexteBooster">
-        <div class="containerImagesBooster">
+    <div class=" containerImagesEtTexteBooster containerImagesEtTexteBooster2">
+        <!-- <div class="containerImagesBooster"> -->
             <img src="assets/img/visu_dip.png" alt="booster">
-            <div class="containerDescription">
-                <h3>Booster </h3>
-                <p>Tandem Baits Carp Food PVA Booster,
-                    Appâts pour pêche de la Carpe,
-                    Accessoires de Pêche Carpe Professionnel</p>
+            <div class="containerDescription containerDescription2">
+                <div class="containerInterieur">
+                    <h3>Booster </h3>
+                    <p>Tandem Baits Carp Food PVA Booster,
+                        Appâts pour pêche de la Carpe,
+                        Accessoires de Pêche Carpe Professionnel</p>
+                </div>
             </div>
-            <div class="containerQuestion">
+            <div class="containerQuestion containerQuestion2">
                 <p>Pourquoi utiliser un booster ? A quelle saison ?</p>
             </div>
-        </div>
+        <!-- </div> -->
     </div>
 
     <div class="containerImagesEtTexteBooster">
