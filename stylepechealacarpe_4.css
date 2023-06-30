@@ -220,320 +220,135 @@ ul {
 
 .titreGauche{
 
-    font-family: var(--deuxiemeFontFamily);
-    color:var(--troisiemeCouleurTexte);
-    font-size: calc(60 * var(--valeurViewport) / var(--variableLargeur));
+    top: 657px;
+    left: 81px;
+    width: 618px;
+    height: 81px;
+    text-align: left;
+    font: normal normal normal 60px/70px Cinzel Decorative;
+    letter-spacing: 0px;
+    color: #4D4D4D;
+    opacity: 1;
+
+}
+
+.coteGaucheLaPecheALaCarpe4bis{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.coteGaucheLaPecheALaCarpe4Ter{
+    display: flex;
+    flex-direction: column;
+}
+
+.soustitreGauche{
+    top: 0px;
+    left: 0px;
+    width: 232px;
+    height: 40px;
+    text-align: left;
+    font: normal normal normal 30px/23px Cinzel Decorative;
+    letter-spacing: 0px;
+    color: #938A56;
+    padding: 20px 0 0 10px;
+
+}
+
+.containerMainNylonBobine1 {
+
+top: 1258px;
+left: 103px;
+width: 368px;
+height: 288px;
+/* UI Properties */
+background: #F8F5EF 0% 0% no-repeat padding-box;
+opacity: 1
+}
+
+.sousContainerMainNylonBobine1{
+
+    top: 1298px;
+    left: 142px;
+    width: 300px;
+    height: 248px;
+    text-align: left;
+    letter-spacing: NaNpx;
+    opacity: 1;  
+
+}
+
+.containerMainNylonBobine2 {
+    width: 368px;
+    height: 395px;
+    background: #FCFBFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.containerMainTresseBobine1{
+    top: 1258px;
+    left: 103px;
+    width: 368px;
+    height: 288px;
+    /* UI Properties */
+    background: #F8F5EF 0% 0% no-repeat padding-box;
+    opacity: 1
+}
+
+.sousContainerMainTresseBobine1{
+
+    top: 1298px;
+    left: 142px;
+    width: 300px;
+    height: 248px;
+    text-align: left;
+    letter-spacing: NaNpx;
+    opacity: 1;  
+
+}
+
+.containerMainTresseBobine2{
+    width: 368px;
+    height: 395px;
+    background: #FCFBFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+
 
 }
 
 
+.paragraphes1{
 
+    top: 155px;
+    left: 0px;
+    width: 62px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/23px Asap;
+    letter-spacing: 0px;
+    color: #4D4D4D;
+    padding: 0 20px 20px 20px;
 
-.etangLaPecheALaCarpe4 .imageEtangLaPecheALaCarpe4 img{
-    position:absolute;
-    top:calc(218 / var(--hauteurMainPecheALaCarpe4) * 100%);
-    width:calc(766 * var(--valeurViewport) / var(--variableLargeur));
-    height:calc(542 * var(--valeurViewport) / var(--variableLargeur));
-    left:calc(624 * var(--valeurViewport) / var(--variableLargeur));
-    background: transparent radial-gradient(closest-side at 50% 50%, #EAEAEA 0%, #4D4D4D 100%) 0% 0% no-repeat padding-box;
-    mix-blend-mode: multiply;
-}
-
-
-
-.etangLaPecheALaCarpe4 .imageEtangLaPecheALaCarpe4 .imageEtangLaPecheALaCarpe4H3{
-    position:absolute;
-    top:calc(245 /  var(--hauteurMainPecheALaCarpe4) * 100%);
-    left:calc(103 * var(--valeurViewport) / var(--variableLargeur));
-    width:calc(559 * var(--valeurViewport) / var(--variableLargeur));
-    height:calc(106 * var(--valeurViewport) / var(--variableLargeur));
-    font-family:var(--deuxiemeFontFamily);
-    box-shadow: 0px 0px 30px #00000029;
-    background-color: var( --backgroundColor6);
-    
-    z-index:2;
-
-    
-}
-
-.etangLaPecheALaCarpe4 .imageEtangLaPecheALaCarpe4 .imageEtangLaPecheALaCarpe4H3 h3{
-    position:absolute;
-    margin-top:calc(23 * var(--valeurViewport) / var(--variableLargeur));
-    margin-left:calc(39 * var(--valeurViewport) / var(--variableLargeur));
-    font-weight:normal;
-    color:var(--troisiemeCouleurTexte);
-    font-size: var(--fontSize50px) ;
 
 }
 
-.containerMainPecheALaCarpe4 .coteGaucheLaPecheALaCarpe4 .etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4{
-    position:absolute;
-    top:calc(429 /  var(--hauteurMainPecheALaCarpe4) * 100%);
-    left:calc(142 * var(--valeurViewport) / var(--variableLargeur));
-    width:calc(410 * var(--valeurViewport) / var(--variableLargeur));
-    height:calc(301 * var(--valeurViewport) / var(--variableLargeur));
+.paragraphes2{
+    top: 1586px;
+    left: 137px;
+    width: 305px;
+    height: 325px;
+    text-align: left;
+    font: normal normal normal 20px/26px Asap;
+    letter-spacing: 0px;
+    color: #4D4D4D;
+    opacity: 1;
+    padding: 20px;
 
 }
 
-.containerMainPecheALaCarpe4 .coteGaucheLaPecheALaCarpe4 .etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 h4{
-    color:var(--deuxiemeCouleurTexte);
-    font-family:var(--premiereFontFamily);
-    font-weight:bold;
-    font-size:var(--fontSize30px);
-    line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur))
-}
 
-.etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 p{
-    color:var(--troisiemeCouleurTexte);
-    font-family:var(--premiereFontFamily);
-    font-weight:normal;
-    font-size:var(--fontSiza20px);
-    line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur));
-   
-    /* transform:translateY(50%); */
-   
- 
-}
-
-.etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 p:nth-of-type(1){
-   
-    margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur));
-    text-transform:uppercase;
-  
-   
-}
-
-.etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 p:nth-of-type(1) span:nth-child(1){
-    color:var(--deuxiemeCouleurTexte);
-  
-    /* margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur)); */
-
-}
-
-.etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 p:nth-of-type(1) sup:nth-of-type(1){
-   
-    font-size:calc(10 * var(--valeurViewport) / var(--variableLargeur));
-    color:var(--deuxiemeCouleurTexte);
-    text-transform:uppercase;
-}
-
-.etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 p:nth-of-type(2){
-   
-   
-    margin-top:calc(21.8 * var(--valeurViewport) / var(--variableLargeur));
-    line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur));
-    /* transform:translateY(100%) */
-   
-   
-   
-}
-
-.etangLaPecheALaCarpe4 .paragrapheEtangPecheALaCarpe4 p:nth-of-type(3){
-
-
-    color:var(--deuxiemeCouleurTexte);
-    font-size:var(--fontSiza20px);
-    font-family:var(--premiereFontFamily);
-    line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur));
- 
-}
-
-.imageRiviereLaPecheALaCarpe4{
-    position:absolute;
-    top:calc(798 * var(--valeurViewport) / var(--variableLargeur) );
-    left:calc(103 * var(--valeurViewport) / var(--variableLargeur) );
-    width:calc(766 * var(--valeurViewport) / var(--variableLargeur));
-    height:calc(542 * var(--valeurViewport) / var(--variableLargeur))
-}
-
-.imageRiviereLaPecheALaCarpe4 img{
-    position:absolute;
-    width:100%;
-    height:100%;
-    background: transparent url('img/iStock-1143165863.png') 0% 0% no-repeat padding-box;
-}
-
-.riviereLaPecheALaCarpe4 .imageRiviereLaPecheALaCarpe4 .imageRiviereLaPecheALaCarpe4H3{
-    position:absolute;
-    top:calc(27 * var(--valeurViewport) / var(--variableLargeur));
-    /* left:0; */
-    left:calc(728 * var(--valeurViewport) / var(--variableLargeur));
-    width:calc(559 * var(--valeurViewport) / var(--variableLargeur));
-    height:calc(106 * var(--valeurViewport) / var(--variableLargeur));
-    font-family:var(--deuxiemeFontFamily);
-    box-shadow: 0px 0px 30px #00000029;
-    background-color: var( --backgroundColor6);
-    
-    z-index:2;
-
-    
-}
-
-.riviereLaPecheALaCarpe4 .imageRiviereLaPecheALaCarpe4 .imageRiviereLaPecheALaCarpe4H3 h3{
-    position:absolute;
-    top:calc(10 * var(--valeurViewport) / var(--variableLargeur));
-   
-    right:calc(39 * var(--valeurViewport) / var(--variableLargeur));
-    font-weight:normal;
-    color:var(--troisiemeCouleurTexte);
-    font-size: var(--fontSize50px) ;
-    /* line-height:calc(68 * var(--valeurViewport) / var(--variableLargeur)) */
-   
-
-}
-
-.riviereLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4{
-    position:absolute;
-    top:calc(1009 /  var(--hauteurMainPecheALaCarpe4) * 100%);
-    left:calc(941 * var(--valeurViewport) / var(--variableLargeur));
-    width:calc(410 * var(--valeurViewport) / var(--variableLargeur));
-    height:calc(301 * var(--valeurViewport) / var(--variableLargeur));   
-    text-align:right;
-  
-}
-
-.riviereLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 h4{
-  
-    color:var(--deuxiemeCouleurTexte);
-    font-family:var(--premiereFontFamily);
-    font-weight:bold;
-    font-size:var(--fontSize30px);
-    line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur));
-   
-}
-
-.riviereLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p{
-    color:var(--troisiemeCouleurTexte);
-    font-family:var(--premiereFontFamily);
-    font-weight:normal;
-    font-size:var(--fontSiza20px);
-    line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur));
-   
-   
-}
-
-.riviereLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(1){
-   
-    margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur));
-    text-transform:uppercase;
-
-  
-   
-}
-
-.riviereLaPecheALaCarpe4  .paragrapheRivierePecheALaCarpe4 span:nth-child(1){
-    color:var(--deuxiemeCouleurTexte);
-  
-    /* margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur)); */
-}
-
-.riviereLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(2){
-   
-   
-    margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur));
-    line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur));
-    /* transform:translateY(100%) */
-   
-   
-   
-}
-
-
-
-
-
-
-
-
-
-
-.containerMainPecheALaCarpe4 .coteGaucheLaPecheALaCarpe4 .lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4{
-    position:absolute;
-    top:calc(1589 /  var(--hauteurMainPecheALaCarpe4) * 100%);
-    left:calc(142 * var(--valeurViewport) / var(--variableLargeur));
-    width:calc(410 * var(--valeurViewport) / var(--variableLargeur));
-    height:calc(301 * var(--valeurViewport) / var(--variableLargeur));
-
-}
-
-.containerMainPecheALaCarpe4 .coteGaucheLaPecheALaCarpe4 .lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 h4{
-    color:var(--deuxiemeCouleurTexte);
-    font-family:var(--premiereFontFamily);
-    font-weight:bold;
-    font-size:var(--fontSize30px);
-    line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur))
-}
-
-.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p{
-    color:var(--troisiemeCouleurTexte);
-    font-family:var(--premiereFontFamily);
-    font-weight:normal;
-    font-size:var(--fontSiza20px);
-    line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur));
-
- 
-}
-
-/* .lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(1){
-   
-    margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur));
-    text-transform:uppercase;
-
-  
-   
-} */
-
-.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(1){
-   
-
-    font-size:var(--fontSiza20px);
-    color:var(--deuxiemeCouleurTexte);
-    line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur));
-    margin-top:calc(4 * var(--valeurViewport) / var(--variableLargeur));
-
-
-   
-} 
-
-.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(2){
-   
-    margin-top:calc(20 * var(--valeurViewport) / var(--variableLargeur));
-    text-transform:uppercase;
-   
-}
-
-.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(2) span{
-   
-    font-size:var(--fontSiza20px);
-    color:var(--deuxiemeCouleurTexte);
-
-}
-
-.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(2) sup:nth-of-type(1){
-   
-    font-size:calc(10 * var(--valeurViewport) / var(--variableLargeur));
-    color:var(--deuxiemeCouleurTexte);
-    text-transform:uppercase;
-}
-
-.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(3){
-   
-   
-    margin-top:calc(21.8 * var(--valeurViewport) / var(--variableLargeur));
-    line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur));
-    /* transform:translateY(100%) */
-  
-}
-
-.lacLaPecheALaCarpe4 .paragrapheRivierePecheALaCarpe4 p:nth-of-type(4){
-
-
-    color:var(--deuxiemeCouleurTexte);
-    font-size:var(--fontSiza20px);
-    font-family:var(--premiereFontFamily);
-    line-height:calc(26 * var(--valeurViewport) / var(--variableLargeur));
- 
-}
 
 .barreDuMilieuPecheALaCarpe4{
     position:absolute;

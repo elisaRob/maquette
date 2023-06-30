@@ -20,23 +20,43 @@
                 <div class="coteGaucheLaPecheALaCarpe4">
 
                     <h2 class="titreGauche">Fil pour moulinet</h2>
+
+                    <div class="coteGaucheLaPecheALaCarpe4bis">
+                        <div class="coteGaucheLaPecheALaCarpe4Ter">
     
-                    <img src="assets/img/visu_Nylon_bobine.png" alt="bobine nylon fil moulinet" width="411px" height="542px">
+                            <img src="assets/img/visu_Nylon_bobine.png" alt="bobine nylon fil moulinet" width="411px" height="542px">
 
-    
-                    <h3>Nylon bobine</h3>
+                            <div class="containerMainNylonBobine1">
+                                <div class="sousContainerMainNylonBobine1">
 
-                    <p>26/100 28/100 30/100 33/100 35/100 37/100 38/100 40/100</p>
-                    <p>Le nylon Density coule rapidement et offre une élasticité modérée pour plus de sensibilité. Il garantit également une excellente glisse et une faible mémoire. Le processus de traitement après extrusion du monofilament Prologic Density aide à obtenir une meilleure glisse, une grande souplesse et une mémoire réduite.</p>
+                                <h3 class="soustitreGauche">Nylon bobine</h3>
 
-                     <img src="assets/img/visu_Tresse_bobine.png" alt="bobine tresse fil moulinet" width="411px" height="542px">
+                                <p class="paragraphes1">26/100<br> 28/100<br> 30/100<br> 33/100<br> 35/100<br> 37/100<br> 38/100<br> 40/100</p>
+                                </div>
+                            </div>
 
-                    <h3>Tresse bobine</h3>
+                            <div class="containerMainNylonBobine2">
+                                <p class="paragraphes2">Le nylon Density coule rapidement et offre une élasticité modérée pour plus de sensibilité. Il garantit également une excellente glisse et une faible mémoire. Le processus de traitement après extrusion du monofilament Prologic Density aide à obtenir une meilleure glisse, une grande souplesse et une mémoire réduite.</p>
+                            </div>
+                        </div>
+                    
+                        <div class="coteGaucheLaPecheALaCarpe4Ter">
 
-                    <p>26/100 28/100 30/100 33/100 35/100 40/100 50/100 60/100</p>
-                    <p>Tresse conçue pour le carpsite à la recherche d’un produit coulant, résistant à l’abrasion, discret et dont le tressage assure une excellente glisse (anneaux). Tresse coulante développée pour la pêche de la carpe. Les nombreuses caractéristiques ont été étudiées et sélectionnées pour vous proposer une tresse carpe extrêmement performante.</p>
-    
-    
+                            <img src="assets/img/visu_Tresse_bobine.png" alt="bobine tresse fil moulinet" width="411px" height="542px">
+
+                                <div class="containerMainTresseBobine1">
+                                    <div class="sousContainerMainTresseBobine1">
+                                        <h3 class="soustitreGauche">Tresse bobine</h3>
+
+                                        <p class="paragraphes1">26/100<br> 28/100<br> 30/100<br> 33/100<br> 35/100<br> 40/100<br> 50/100<br> 60/100</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="containerMainTresseBobine2">
+                                    <p class="paragraphes2">Tresse conçue pour le carpsite à la recherche d’un produit coulant, résistant à l’abrasion, discret et dont le tressage assure une excellente glisse (anneaux). Tresse coulante développée pour la pêche de la carpe. Les nombreuses caractéristiques ont été étudiées et sélectionnées pour vous proposer une tresse carpe extrêmement performante.</p>
+                                </div>
+                        </div>
+                    </div>
                 </div>
 
 
