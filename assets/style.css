@@ -1920,7 +1920,7 @@
     padding-bottom: 50%;
     /* border: red 1px solid; */
     /* background-color: #FD7E23; */
-    font-family:var(--premiereFontFamily)
+    font-family:var(--premiereFontFamily);
     background-color: #ccc;
 opacity: 0.8;
 background-image: radial-gradient(circle at center center, #938A56, #ccc), repeating-radial-gradient(circle at center center, #938A56, #938A56, 13px, transparent 26px, transparent 13px);
