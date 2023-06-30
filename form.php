@@ -6,9 +6,9 @@
 <section class="section-form">
     <div id="text-form">
         <h2>Ne sois pas timide</h2>
-        <p class="form">N'hésites pas à nous contacter. 
-        Nous sommes toujours ouvert à la discussion ou autres remarques.
-        N'oublie pas tu peux nous suivre sur les réseaux.</p>
+        <p class="form"><b><br>N'hésites pas à nous contacter.<b><br><br> 
+        <b>Nous sommes toujours ouvert à la discussion ou autres remarques.
+        N'oublie pas tu peux nous suivre sur les réseaux.<b></p>
     </div>
     <form action="reponse.php" method="POST">
     <h2>Formulaire de contact</h2> 
@@ -30,7 +30,7 @@
         </div>
         <div>
             <!-- <label for="msg"class="titreInput">Message :</label> -->
-            <textarea id="msg" name="message" rows="10" cols="30" placeholder= "Votre message ici"required></textarea>
+            <textarea id="msg" name="message" rows="8" cols="30" placeholder= "Votre message ici"required></textarea>
         </div>
         <div>
             
