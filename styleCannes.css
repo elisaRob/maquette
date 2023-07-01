@@ -1,8 +1,465 @@
+:root{
+  --hauteurCanne:2853px;
+  --hauteurDiapoPecheALaCarpe:471.93;
+  --hauteurMainPecheALaCarpe1:2004.63;
+  --fontSize50px:calc(50 * var(--valeurViewport) / var(--variableLargeur));
+  --fontSize30px:calc(30 * var(--valeurViewport) / var(--variableLargeur));
+  --backgroundColor6:#F8F5EF
+}
+
+/*****************************HEADER PECHE A LA CARPE 1********************/
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.containerHeaderImageLaPecheALaCarpe1{
+  height: calc(var(--hauteurDiapoPecheALaCarpe) * var(--valeurViewport) / var(--variableLargeur));
+  position:relative;
+}
+
+.containerHeaderImageLaPecheALaCarpe1{
+  height: calc(var(--hauteurDiapoPecheALaCarpe) * var(--valeurViewport) / var(--variableLargeur));
+  position:relative;
+}
+
+.containerHeaderImageLaPecheALaCarpe1 img{
+  position:absolute;
+  width:100%;
+  height:100%;
+}
+
+.containerHeaderImageLaPecheALaCarpe1 h1{
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  top:calc(138.93 / var(--hauteurDiapoPecheALaCarpe) * 100%);
+  width:100%;
+  height:calc(158 * var(--valeurViewport) / var(--variableLargeur));
+ 
+  color:var(--PremiereCouleurTexte);
+  font-family:var(--deuxiemeFontFamily);
+  font-size:calc(117 * var(--valeurViewport) / var(--variableLargeur));
+  font-weight:normal;
+}
+
+
+.containerHeaderImageLaPecheALaCarpe1 p{
+
+  position:absolute;
+  top:calc(331.93 / var(--hauteurDiapoPecheALaCarpe) * 100%);
+  width:calc(240 * var(--valeurViewport) / var(--variableLargeur));
+  height:calc(23 * var(--valeurViewport) / var(--variableLargeur));
+  width:100%;
+  display:flex;
+  justify-content:center;
+  color:var(--PremiereCouleurTexte);
+  font-family:var(--premiereFontFamily);
+  font-weight:normal;
+  font-size:var(--fontSiza20px);
+ 
+}
+
+.containerHeaderImageLaPecheALaCarpe1 p span{
+  font-weight:bold;
+} 
+
+
+/***********************CANNES MAIN **********************/
+
+.conainerMainPrincipalLesCannes{
+    height: calc(var(--hauteurCanne) * var(--valeurViewport) / var(--variableLargeur));
+    position:relative;
+ 
+}
+
+.conainerMainPrincipalLesCannes .fox{
+    position:absolute;
+    height: calc(81 * var(--valeurViewport) / var(--variableLargeur));
+    top:calc(85 * var(--valeurViewport) / var(--variableLargeur)) ;
+    width:calc(254 * var(--valeurViewport) / var(--variableLargeur)) ;
+    left: calc(81 * var(--valeurViewport) / var(--variableLargeur));
+    color:var(--deuxiemeCouleurTexte);
+    font-family:var(--deuxiemeFontFamily);
+    font-size:calc(60 * var(--valeurViewport) / var(--variableLargeur));
+    line-height:calc(70 * var(--valeurViewport) / var(--variableLargeur));
+    font-weight:400
+}
+
+.conainerMainPrincipalLesCannes .imageFox{
+  position:absolute;
+  height: calc(69 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(85 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(209 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 362 * var(--valeurViewport) / var(--variableLargeur));
+  z-index:2
+}
+
+/***premiere image***/
+
+.conainerMainPrincipalLesCannes .image1{
+  position:absolute;
+  height: calc(704 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(222 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(411 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 81 * var(--valeurViewport) / var(--variableLargeur));
+  margin-right:calc( 38 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.conainerMainPrincipalLesCannes .image1 img{
+    position:absolute;
+    height: calc(542 * var(--valeurViewport) / var(--variableLargeur));
+    top: 0;
+    width:100% ;
+    left:0;
+}
+
+.conainerMainPrincipalLesCannes .image1 .texte1{
+    position:absolute;
+    height: calc(240 * var(--valeurViewport) / var(--variableLargeur));
+    top: calc(464 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(368 * var(--valeurViewport) / var(--variableLargeur)) ;
+    left:calc( 22 * var(--valeurViewport) / var(--variableLargeur));
+    background-color: var(--backgroundColor1);
+}
+
+.conainerMainPrincipalLesCannes .image1 .interieurTexte1{
+  position:absolute;
+  height: calc(200 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(40 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(311 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 39 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.conainerMainPrincipalLesCannes .image1 .interieurTexte1 h2{
+  font-family:var(--deuxiemeFontFamily);
+  font-size:var(--fontSize30px);
+  line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur));
+  font-weight:400;
+  color:var(--troisiemeCouleurTexte);
+}
+
+.conainerMainPrincipalLesCannes .image1 .interieurTexte1 p:nth-of-type(1){
+  font-family:var(--premiereFontFamily);
+  font-weight:bold;
+  font-size:var(--fontSiza20px);
+  color:var(--deuxiemeCouleurTexte)
+
+}
+
+.conainerMainPrincipalLesCannes .image1 .interieurTexte1 p:nth-of-type(2){
+  font-family:var(--premiereFontFamily);
+  font-weight:400;
+  font-size:var(--fontSiza20px);
+  color:var(--deuxiemeCouleurTexte)
+}
+
+/***deuxieme image***/
+
+.conainerMainPrincipalLesCannes .image2{
+  position:absolute;
+  height: calc(769 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(144 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(411 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 530 * var(--valeurViewport) / var(--variableLargeur));
+  margin-right:calc( 38 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.conainerMainPrincipalLesCannes .image2 img{
+    position:absolute;
+    height: calc(620 * var(--valeurViewport) / var(--variableLargeur));
+    top: 0;
+    width:100% ;
+    left:0;
+}
+
+.conainerMainPrincipalLesCannes .image2 .texte2{
+  position:absolute;
+  height: calc(240 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(542 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(368 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 22 * var(--valeurViewport) / var(--variableLargeur));
+  background-color: var(--backgroundColor1);
+}
+
+.conainerMainPrincipalLesCannes .image2 .interieurTexte2{
+  position:absolute;
+  height: calc(200 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(40 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(311 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 39 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.conainerMainPrincipalLesCannes .image2 .interieurTexte2 h2{
+  font-family:var(--deuxiemeFontFamily);
+  font-size:var(--fontSize30px);
+  line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur));
+  font-weight:400;
+  color:var(--troisiemeCouleurTexte);
+}
+
+.conainerMainPrincipalLesCannes .image2 .interieurTexte2 p:nth-of-type(1){
+  font-family:var(--premiereFontFamily);
+  font-weight:bold;
+  font-size:var(--fontSiza20px);
+  color:var(--deuxiemeCouleurTexte)
+
+}
+
+.conainerMainPrincipalLesCannes .image2 .interieurTexte2 p:nth-of-type(2){
+  font-family:var(--premiereFontFamily);
+  font-weight:400;
+  font-size:var(--fontSiza20px);
+  color:var(--deuxiemeCouleurTexte)
+}
+
+/***troisieme image***/
+
+.conainerMainPrincipalLesCannes .image3{
+  position:absolute;
+  height: calc(731 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(182 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(411 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 979 * var(--valeurViewport) / var(--variableLargeur));
+  margin-right:calc( 38 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.conainerMainPrincipalLesCannes .image3 img{
+    position:absolute;
+    height: calc(582 * var(--valeurViewport) / var(--variableLargeur));
+    top: 0;
+    width:100% ;
+    left:0;
+}
+
+.conainerMainPrincipalLesCannes .image3 .texte3{
+    position:absolute;
+    height: calc(227 * var(--valeurViewport) / var(--variableLargeur));
+    top: calc(504 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(368 * var(--valeurViewport) / var(--variableLargeur)) ;
+    left:calc( 22 * var(--valeurViewport) / var(--variableLargeur));
+    background-color: var(--backgroundColor1);
+}
+
+.conainerMainPrincipalLesCannes .image3 .interieurTexte3{
+  position:absolute;
+  height: calc(200 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(40 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(311 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 39 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.conainerMainPrincipalLesCannes .image3 .interieurTexte3 h2{
+  font-family:var(--deuxiemeFontFamily);
+  font-size:var(--fontSize30px);
+  line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur));
+  font-weight:400;
+  color:var(--troisiemeCouleurTexte);
+}
+
+.conainerMainPrincipalLesCannes .image3 .interieurTexte3 p:nth-of-type(1){
+  font-family:var(--premiereFontFamily);
+  font-weight:bold;
+  font-size:var(--fontSiza20px);
+  color:var(--deuxiemeCouleurTexte)
+
+}
+
+.conainerMainPrincipalLesCannes .image3 .interieurTexte3 p:nth-of-type(2){
+  font-family:var(--premiereFontFamily);
+  font-weight:400;
+  font-size:var(--fontSiza20px);
+  color:var(--deuxiemeCouleurTexte)
+}
+
+/***titre 2***/
+
+.conainerMainPrincipalLesCannes .caperlan{
+  position:absolute;
+  height: calc(81 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(1003 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(254 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 81 * var(--valeurViewport) / var(--variableLargeur));
+  color:var(--deuxiemeCouleurTexte);
+  font-family:var(--deuxiemeFontFamily);
+  font-size:calc(60 * var(--valeurViewport) / var(--variableLargeur));
+  line-height:calc(70 * var(--valeurViewport) / var(--variableLargeur));
+  font-weight:400
+}
+
+.conainerMainPrincipalLesCannes .imageCaperlan{
+  position:absolute;
+  height: calc(74 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(1003 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(403 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 375 * var(--valeurViewport) / var(--variableLargeur));
+
+}
+
+/***image 4***/
+
+.conainerMainPrincipalLesCannes .image4{
+  position:absolute;
+  height: calc(725 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(1092 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(411 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 81 * var(--valeurViewport) / var(--variableLargeur));
+  margin-right:calc( 38 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.conainerMainPrincipalLesCannes .image4 img,
+.conainerMainPrincipalLesCannes .image5 img,
+.conainerMainPrincipalLesCannes .image6 img{
+    position:absolute;
+    height: calc(582 * var(--valeurViewport) / var(--variableLargeur));
+    top: 0;
+    width:100% ;
+    left:0;
+}
+
+.conainerMainPrincipalLesCannes .image4 .texte4,
+.conainerMainPrincipalLesCannes .image5 .texte5,
+.conainerMainPrincipalLesCannes .image6 .texte6{
+    position:absolute;
+    height: calc(226 * var(--valeurViewport) / var(--variableLargeur));
+    top: calc(499 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(368 * var(--valeurViewport) / var(--variableLargeur)) ;
+    left:calc( 22 * var(--valeurViewport) / var(--variableLargeur));
+    background-color: var(--backgroundColor1);
+}
+
+.conainerMainPrincipalLesCannes .image4 .interieurTexte4,
+.conainerMainPrincipalLesCannes .image5 .interieurTexte5,
+.conainerMainPrincipalLesCannes .image6 .interieurTexte6{
+  position:absolute;
+  height: calc(186 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(40 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(300 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 39 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.conainerMainPrincipalLesCannes .image4 .interieurTexte4 h2,
+.conainerMainPrincipalLesCannes .image5 .interieurTexte5 h2,
+.conainerMainPrincipalLesCannes .image6 .interieurTexte6 h2{
+  font-family:var(--deuxiemeFontFamily);
+  font-size:var(--fontSize30px);
+  line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur));
+  font-weight:400;
+  color:var(--troisiemeCouleurTexte);
+}
+
+.conainerMainPrincipalLesCannes .image4 .interieurTexte4 p,
+.conainerMainPrincipalLesCannes .image5 .interieurTexte5 p,
+.conainerMainPrincipalLesCannes .image6 .interieurTexte6 p{
+  font-family:var(--premiereFontFamily);
+  font-weight:400;
+  font-size:var(--fontSiza20px);
+  color:var(--deuxiemeCouleurTexte)
+}
+
+.conainerMainPrincipalLesCannes .image5{
+  position:absolute;
+  height: calc(725 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(1092 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(411 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 530 * var(--valeurViewport) / var(--variableLargeur));
+  margin-right:calc( 38 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.conainerMainPrincipalLesCannes .image6{
+  position:absolute;
+  height: calc(725 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(1092 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(411 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 979 * var(--valeurViewport) / var(--variableLargeur));
+  margin-right:calc( 38 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+/*** texte 3 ***/
+
+.conainerMainPrincipalLesCannes .korda{
+  position:absolute;
+  height: calc(81 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(1903 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(254 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 81 * var(--valeurViewport) / var(--variableLargeur));
+  color:var(--deuxiemeCouleurTexte);
+  font-family:var(--deuxiemeFontFamily);
+  font-size:calc(60 * var(--valeurViewport) / var(--variableLargeur));
+  line-height:calc(70 * var(--valeurViewport) / var(--variableLargeur));
+  font-weight:400;
+  z-index:2;
+}
+
+.conainerMainPrincipalLesCannes .kordaImages{
+  position:absolute;
+  height: calc(90 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(1895 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(388 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 375 * var(--valeurViewport) / var(--variableLargeur));
+  z-index:2;
+
+}
+
+/***image 7***/
+
+.conainerMainPrincipalLesCannes .image7{
+  position:absolute;
+  height: calc(777 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(1920 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(491 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 41 * var(--valeurViewport) / var(--variableLargeur));
+  margin-right:calc( 38 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.conainerMainPrincipalLesCannes .image7 img{
+    position:absolute;
+    height: calc(582 * var(--valeurViewport) / var(--variableLargeur));
+    top: 0;
+    width:100% ;
+    left:0;
+}
+
+.conainerMainPrincipalLesCannes .image7 .texte7{
+    position:absolute;
+    height: calc(227 * var(--valeurViewport) / var(--variableLargeur));
+    top: calc(504 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(368 * var(--valeurViewport) / var(--variableLargeur)) ;
+    left:calc( 22 * var(--valeurViewport) / var(--variableLargeur));
+    background-color: var(--backgroundColor1);
+}
+
+.conainerMainPrincipalLesCannes .image7 .interieurTexte7{
+  position:absolute;
+  height: calc(200 * var(--valeurViewport) / var(--variableLargeur));
+  top: calc(40 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(311 * var(--valeurViewport) / var(--variableLargeur)) ;
+  left:calc( 39 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.conainerMainPrincipalLesCannes .image7 .interieurTexte7 h2{
+  font-family:var(--deuxiemeFontFamily);
+  font-size:var(--fontSize30px);
+  line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur));
+  font-weight:400;
+  color:var(--troisiemeCouleurTexte);
+}
+
+
+
+.conainerMainPrincipalLesCannes .image7 .interieurTexte7 p {
+  font-family:var(--premiereFontFamily);
+  font-weight:400;
+  font-size:var(--fontSiza20px);
+  color:var(--deuxiemeCouleurTexte)
+}
 
 /*Cannes fox*/
 
 /*  Logo + Titre cannes */
-.image-section {
+/* .image-section {
     text-align: left;
     display: flex;
     padding: 50px;
@@ -22,12 +479,12 @@
   .image-container img {
     margin: 0 10px;
   }
-  
+   */
 
 
 /*CANNES FOX EOS*/
 
-  .test {
+  /* .test {
     text-align: left;
     display: flex;
     padding: 5rem;
@@ -82,7 +539,7 @@
     width: 368px;
     height: 240px;
     font-family: 'Cinzel Decorative', cursive;
-}
+} */
 
 /*LOGO + TITRE CAPERLAN*/
 
