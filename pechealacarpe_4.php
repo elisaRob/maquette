@@ -79,7 +79,6 @@
 
             <img src="assets/img/pub_caperlan.png" alt="carte">
 
-        </div>
 
             <div class="containerBoutonPecheALaCarpe4">
                 <div class="containerLieuDePeche containerBoutonCarpe">
@@ -102,7 +101,9 @@
                     <button>Fil pour bas de ligne</button>
                 </div>
             </div>
+        
 
+        </div>
 
         </main>
         
