@@ -1,5 +1,5 @@
 <?php require_once 'head.php'?>
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/form.css">
 <?php require_once 'header.php' ?>
 
 <!-- Attention ici c'est la partie de page du formulaire -->
