@@ -1,5 +1,5 @@
 :root{
-  --hauteurCanne:2853px;
+  --hauteurCanne:2853;
   --hauteurDiapoPecheALaCarpe:471.93;
   --hauteurMainPecheALaCarpe1:2004.63;
   --fontSize50px:calc(50 * var(--valeurViewport) / var(--variableLargeur));
@@ -139,6 +139,7 @@
   line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur));
   font-weight:400;
   color:var(--troisiemeCouleurTexte);
+  padding-bottom:calc(7 *var(--valeurViewport)/var(--variableLargeur))
 }
 
 .conainerMainPrincipalLesCannes .image1 .interieurTexte1 p:nth-of-type(1){
@@ -198,6 +199,7 @@
   line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur));
   font-weight:400;
   color:var(--troisiemeCouleurTexte);
+  padding-bottom:calc(7 *var(--valeurViewport)/var(--variableLargeur))
 }
 
 .conainerMainPrincipalLesCannes .image2 .interieurTexte2 p:nth-of-type(1){
@@ -257,6 +259,7 @@
   line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur));
   font-weight:400;
   color:var(--troisiemeCouleurTexte);
+  padding-bottom:calc(7 *var(--valeurViewport)/var(--variableLargeur))
 }
 
 .conainerMainPrincipalLesCannes .image3 .interieurTexte3 p:nth-of-type(1){
@@ -348,6 +351,7 @@
   line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur));
   font-weight:400;
   color:var(--troisiemeCouleurTexte);
+  padding-bottom:calc(7 *var(--valeurViewport)/var(--variableLargeur))
 }
 
 .conainerMainPrincipalLesCannes .image4 .interieurTexte4 p,
@@ -445,6 +449,7 @@
   line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur));
   font-weight:400;
   color:var(--troisiemeCouleurTexte);
+  padding-bottom:calc(7 *var(--valeurViewport)/var(--variableLargeur))
 }
 
 
@@ -454,6 +459,122 @@
   font-weight:400;
   font-size:var(--fontSiza20px);
   color:var(--deuxiemeCouleurTexte)
+}
+
+/*--------------------------Main separateur----------------------------------------*/
+
+
+.barreDuMilieuPecheALaCarpe4{
+  position:absolute;
+  width:calc(1 * var(--valeurViewport) / var(--variableLargeur));
+  height:calc(2250 * var(--valeurViewport) / var(--variableLargeur));
+  top:calc(100 * var(--valeurViewport) / var(--variableLargeur));
+  right:calc(492 * var(--valeurViewport) / var(--variableLargeur));
+  background-color:var(--troisiemeCouleurTexte)
+
+}
+
+/*----------------------------Main cote droit----------------------------------*/
+
+
+/* .coteDroitLaPecheALaCarpe4{
+  position:absolute;
+  width:calc(412 * var(--valeurViewport) / var(--variableLargeur));
+  height:calc(762 * var(--valeurViewport) / var(--variableLargeur));
+  top:calc(171.2 * var(--valeurViewport) / var(--variableLargeur));
+  right:calc(1468 * var(--valeurViewport) / var(--variableLargeur));
+} */
+
+
+.coteDroitLaPecheALaCarpe4 img{
+  position:absolute;
+  width:calc(412 * var(--valeurViewport) / var(--variableLargeur));
+  height:calc(762 * var(--valeurViewport) / var(--variableLargeur));
+  top:calc(513 * var(--valeurViewport) / var(--variableLargeur));
+  right:calc(40 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+
+
+.containerBoutonPecheALaCarpe4{
+  position:absolute;
+  top:calc(103 * var(--valeurViewport)/ var(--variableLargeur));
+  right:calc(67 * var(--valeurViewport) / var(--variableLargeur));
+  width:calc(385 * var(--valeurViewport)/ var(--variableLargeur));
+  height:calc(370 * var(--valeurViewport)/ var(--variableLargeur));
+
+}
+
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe
+{
+  position:absolute;
+
+  left:0;
+ 
+  height:calc(50 * var(--valeurViewport)/ var(--variableLargeur))
+}
+
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button
+{
+  position:absolute;
+  color:var(--backgroundColor4);
+  font-family:var(--premiereFontFamily);
+  background-color: transparent;
+  width:100%;
+  height:100%;
+  border:1px solid var(--troisiemeCouleurTexte);
+  font-size:calc(28 * var(--valeurViewport)/ var(--variableLargeur));
+  transition:all 0.8s;
+  overflow:hidden;
+}
+
+.containerBoutonPecheALaCarpe4 .containerLieuDePeche
+{
+  top:0;
+  width:calc(235 * var(--valeurViewport)/ var(--variableLargeur));
+}
+.containerBoutonPecheALaCarpe4 .containerAdditifs 
+{
+  top:calc(80 * var(--valeurViewport)/ var(--variableLargeur));
+  width:calc(385 * var(--valeurViewport)/ var(--variableLargeur));
+}
+.containerBoutonPecheALaCarpe4 .containerCanneAUtiliser
+{
+  top:calc(160 * var(--valeurViewport)/ var(--variableLargeur));
+  width:calc(243 * var(--valeurViewport)/ var(--variableLargeur));
+}
+.containerBoutonPecheALaCarpe4 .containerFilPourMoulinet 
+{
+  top:calc(240 * var(--valeurViewport)/ var(--variableLargeur));
+  width:calc(263 * var(--valeurViewport)/ var(--variableLargeur));
+}
+.containerBoutonPecheALaCarpe4 .containerFilPourBasDeLigne {
+  top:calc(320 * var(--valeurViewport)/ var(--variableLargeur));
+  width:calc(300 * var(--valeurViewport)/ var(--variableLargeur));
+}
+
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button:before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  background-color: var(--troisiemeCouleurTexte);
+  transform:translateX(-100%);
+  transition:transform 0.8s;
+  z-index:-1;
+}
+
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button:hover:before{
+  transform:translateX(0)
+}
+
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button:hover,
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button:active{
+  color:var(--PremiereCouleurTexte);
+  font-weight:bold;
+  background-color:var(--troisiemeCouleurTexte);
 }
 
 /*Cannes fox*/
