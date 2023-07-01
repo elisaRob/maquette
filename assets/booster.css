@@ -418,7 +418,7 @@
 
 /***6ème image ***/
 
-div.containerImagesEtTexteBooster.containerImagesEtTexteBooster6{
+.containerImagesEtTexteBooster6{
     position:absolute !important;
     bottom:0;
     left:calc(979 * var(--valeurViewport) / var(--variableLargeur)) !important;

@@ -102,20 +102,23 @@
     </div>
 
     <div class="containerImagesEtTexteBooster containerImagesEtTexteBooster6">
+
         <img src="assets/img/visu_pva.png" alt="booster">
-        <div class="containerInterieur containerInterieur6">
-            <div class="containerDescription containerDescription6">
-               <h3>Booster </h3>
-               <p>Tandem Baits Carp Food PVA Booster,
-                Appâts pour pêche de la Carpe,
-                Accessoires de Pêche Carpe Professionnel</p>
-            </div>
+        <div class="containerDescription containerDescription6">
+            <div class="containerInterieur containerInterieur6">
+                <h3>sac soluble </h3>
+                <p>Différentes tailles disponibles :<br>
+                    70x100mm<br>
+                    70x200mm <br>
+                    70x150mm</p>
+            </div>  
         </div>
-            <div class="containerQuestion containerQuestion6">
-                <p>Pourquoi utiliser un booster ? A quelle saison ?</p>
-            </div>
-     
+        <div class="containerQuestion containerQuestion6">
+            <p>Pourquoi utiliser un sac soluble ?<br> Quand ? Quelle fréquentation ?</p>
+        </div>
     </div>
+
+    
 
     
 

@@ -17,11 +17,11 @@
 
             <main class="containerMainPecheALaCarpe4">
 
-                <div class="coteGaucheLaPecheALaCarpe4">
+                <!-- <div class="coteGaucheLaPecheALaCarpe4"> -->
 
                     <h2 class="titreGauche">Fil pour moulinet</h2>
 
-                    <div class="coteGaucheLaPecheALaCarpe4bis">
+                    <!-- <div class="coteGaucheLaPecheALaCarpe4bis"> -->
                         <div class="coteGaucheLaPecheALaCarpe4Ter">
     
                             <img src="assets/img/visu_Nylon_bobine.png" alt="bobine nylon fil moulinet" width="411px" height="542px">
@@ -29,20 +29,21 @@
                             <div class="containerMainNylonBobine1">
                                 <div class="sousContainerMainNylonBobine1">
 
-                                <h3 class="soustitreGauche">Nylon bobine</h3>
+                                    <h3 class="soustitreGauche">Nylon bobine</h3>
 
-                                <p class="paragraphes1">26/100<br> 28/100<br> 30/100<br> 33/100<br> 35/100<br> 37/100<br> 38/100<br> 40/100</p>
+                                    <p class="paragraphes1">26/100<br> 28/100<br> 30/100<br> 33/100<br> 35/100<br> 37/100<br> 38/100<br> 40/100</p>
                                 </div>
                             </div>
 
                             <div class="containerMainNylonBobine2">
-
-                                <p class="paragraphes2">Le nylon Density coule rapidement et offre une élasticité modérée pour plus de sensibilité. Il garantit également une excellente glisse et une faible mémoire.</p>
-                                 <p class="paragraphes2">Le processus de traitement après extrusion du monofilament Prologic Density aide à obtenir une meilleure glisse, une grande souplesse et une mémoire réduite.</p>
+                                <div class="sousContainerMainNylonBobine2">
+                                    <p class="paragraphes2">Le nylon Density coule rapidement et offre une élasticité modérée pour plus de sensibilité. Il garantit également une excellente glisse et une faible mémoire.</p>
+                                    <p class="paragraphes2">Le processus de traitement après extrusion du monofilament Prologic Density aide à obtenir une meilleure glisse, une grande souplesse et une mémoire réduite.</p>
+                                </div>
                             </div>
                         </div>
                     
-                        <div class="coteGaucheLaPecheALaCarpe4Ter">
+                        <div class="coteGaucheLaPecheALaCarpeDeuxiemeImage">
 
                             <img src="assets/img/visu_Tresse_bobine.png" alt="bobine tresse fil moulinet" width="411px" height="542px">
 
@@ -55,12 +56,17 @@
                                 </div>
                                 
                                 <div class="containerMainTresseBobine2">
+                                    <div class="sousContainerMainTresseBobine2">
                                     <p class="paragraphes2">Tresse conçue pour le carpsite à la recherche d’un produit coulant, résistant à l’abrasion, discret et dont le tressage assure une excellente glisse (anneaux).</p>
                                      <p class="paragraphes2">Tresse coulante développée pour la pêche de la carpe. Les nombreuses caractéristiques ont été étudiées et sélectionnées pour vous proposer une tresse carpe extrêmement performante.</p>
+                                    </div>
+                                  
                                 </div>
                         </div>
-                    </div>
-                </div>
+
+
+                    <!-- </div> -->
+                <!-- </div> -->
 
 
         <div class="barreDuMilieuPecheALaCarpe4">
