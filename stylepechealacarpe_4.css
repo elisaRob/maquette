@@ -199,12 +199,14 @@ ul {
     font-weight:bold;
 }
 
-/* ---------------------------------------MAIN --------------------------*/
+/* ---------------------------------------MAIN-------------------------------------------------------*/
 
 .containerMainPecheALaCarpe4{
     height: calc(var(--hauteurMainPecheALaCarpe4) * var(--valeurViewport) / var(--variableLargeur));
     position:relative;
 }
+
+/*------------------------Main cote gauche---------------------------------*/
 
 .containerMainPecheALaCarpe4 .coteGaucheLaPecheALaCarpe4 {
     position:absolute;
@@ -225,12 +227,16 @@ ul {
     width: 618px;
     height: 81px;
     text-align: left;
-    font: normal normal normal 60px/70px Cinzel Decorative;
+    font-size: calc(60 * var(--valeurViewport) / var(--variableLargeur));
+    font-family:var(--deuxiemeFontFamily);
+    font-weight:normal;
     letter-spacing: 0px;
-    color: #4D4D4D;
+    color:var(--deuxiemeCouleurTexte);
     opacity: 1;
+    margin-bottom: 20px;
 
 }
+
 
 .coteGaucheLaPecheALaCarpe4bis{
     display: flex;
@@ -244,15 +250,15 @@ ul {
 }
 
 .soustitreGauche{
-    top: 0px;
+    /*top: 0px;
     left: 0px;
     width: 232px;
-    height: 40px;
+    height: 40px;*/
     text-align: left;
-    font: normal normal normal 30px/23px Cinzel Decorative;
-    letter-spacing: 0px;
-    color: #938A56;
-    padding: 20px 0 0 10px;
+    
+    color: var(--troisiemeCouleurTexte);
+    font-size: calc(30 * var(--valeurViewport) / var(--variableLargeur));
+    padding: 20px 20px 5px 20px;
 
 }
 
@@ -281,7 +287,7 @@ opacity: 1
 
 .containerMainNylonBobine2 {
     width: 368px;
-    height: 395px;
+    height: 325px;
     background: #FCFBFA 0% 0% no-repeat padding-box;
     opacity: 1;
 
@@ -311,7 +317,7 @@ opacity: 1
 
 .containerMainTresseBobine2{
     width: 368px;
-    height: 395px;
+    height: 325px;
     background: #FCFBFA 0% 0% no-repeat padding-box;
     opacity: 1;
 
@@ -321,33 +327,38 @@ opacity: 1
 
 .paragraphes1{
 
-    top: 155px;
+   /* top: 155px;
     left: 0px;
     width: 62px;
-    height: 23px;
+    height: 23px;*/
     text-align: left;
-    font: normal normal normal 20px/23px Asap;
+    font-size: calc(23 * var(--valeurViewport) / var(--variableLargeur));
+    font-family:var(--premiereFontFamily);
+    font-weight:normal;
     letter-spacing: 0px;
-    color: #4D4D4D;
+    color: var(--deuxiemeCouleurTexte);
     padding: 0 20px 20px 20px;
 
 
 }
 
 .paragraphes2{
-    top: 1586px;
+    /*top: 1586px;
     left: 137px;
     width: 305px;
-    height: 325px;
+    height: 325px;*/
     text-align: left;
-    font: normal normal normal 20px/26px Asap;
+    font-size: calc(23 * var(--valeurViewport) / var(--variableLargeur));
+    font-family:var(--premiereFontFamily);
+    font-weight:normal;
     letter-spacing: 0px;
-    color: #4D4D4D;
+    color: var(--deuxiemeCouleurTexte);
     opacity: 1;
     padding: 20px;
 
 }
 
+/*--------------------------Main separateur----------------------------------------*/
 
 
 .barreDuMilieuPecheALaCarpe4{
@@ -359,6 +370,8 @@ opacity: 1
     background-color:var(--troisiemeCouleurTexte)
   
 }
+
+/*----------------------------Main cote droit----------------------------------*/
 
 .coteDroitLaPecheALaCarpe4{
     position:absolute;

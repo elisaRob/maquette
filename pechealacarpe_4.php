@@ -36,7 +36,9 @@
                             </div>
 
                             <div class="containerMainNylonBobine2">
-                                <p class="paragraphes2">Le nylon Density coule rapidement et offre une élasticité modérée pour plus de sensibilité. Il garantit également une excellente glisse et une faible mémoire. Le processus de traitement après extrusion du monofilament Prologic Density aide à obtenir une meilleure glisse, une grande souplesse et une mémoire réduite.</p>
+
+                                <p class="paragraphes2">Le nylon Density coule rapidement et offre une élasticité modérée pour plus de sensibilité. Il garantit également une excellente glisse et une faible mémoire.</p>
+                                 <p class="paragraphes2">Le processus de traitement après extrusion du monofilament Prologic Density aide à obtenir une meilleure glisse, une grande souplesse et une mémoire réduite.</p>
                             </div>
                         </div>
                     
@@ -53,7 +55,8 @@
                                 </div>
                                 
                                 <div class="containerMainTresseBobine2">
-                                    <p class="paragraphes2">Tresse conçue pour le carpsite à la recherche d’un produit coulant, résistant à l’abrasion, discret et dont le tressage assure une excellente glisse (anneaux). Tresse coulante développée pour la pêche de la carpe. Les nombreuses caractéristiques ont été étudiées et sélectionnées pour vous proposer une tresse carpe extrêmement performante.</p>
+                                    <p class="paragraphes2">Tresse conçue pour le carpsite à la recherche d’un produit coulant, résistant à l’abrasion, discret et dont le tressage assure une excellente glisse (anneaux).</p>
+                                     <p class="paragraphes2">Tresse coulante développée pour la pêche de la carpe. Les nombreuses caractéristiques ont été étudiées et sélectionnées pour vous proposer une tresse carpe extrêmement performante.</p>
                                 </div>
                         </div>
                     </div>
