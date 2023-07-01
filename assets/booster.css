@@ -344,7 +344,7 @@
     position:absolute;
     bottom:0;
     left:calc(81 * var(--valeurViewport) / var(--variableLargeur));
-    margin-right:calc(38 *  var(--valeurViewport) / var(--variableLargeur))
+    margin-right:calc(38 *  var(--valeurViewport) / var(--variableLargeur));
 }
 
 
@@ -380,7 +380,8 @@
     position:absolute;
     bottom:0;
     left:calc(530 * var(--valeurViewport) / var(--variableLargeur));
-    margin-right:calc(38 *  var(--valeurViewport) / var(--variableLargeur))
+    margin-right:calc(38 *  var(--valeurViewport) / var(--variableLargeur));
+   
 }
 
 
@@ -411,6 +412,47 @@
 }
 
 .containerQuestion5{
+    left:50% !important;
+    transform:translateX(-50%)
+}
+
+/***6ème image ***/
+
+div.containerImagesEtTexteBooster.containerImagesEtTexteBooster6{
+    position:absolute !important;
+    bottom:0;
+    left:calc(979 * var(--valeurViewport) / var(--variableLargeur)) !important;
+    /* margin-right:calc(38 *  var(--valeurViewport) / var(--variableLargeur)) */
+}
+
+
+.containerImagesEtTexteBooster6 img{
+    position:absolute;
+    top:0;
+    width:100%;
+    left:0;
+    height:calc(542 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+.containerDescription6{
+    position:absolute;
+    bottom:calc(133 * var(--valeurViewport) / var(--variableLargeur));
+    /* width:calc(368 * var(--valeurViewport) / var(--variableLargeur)); */
+    left:50%;
+    height:calc(227 * var(--valeurViewport) / var(--variableLargeur));
+    transform:translateX(-50%)
+}
+
+.containerDescription6 .containerInterieur{
+    position:absolute;
+    top:calc(38 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(306 * var(--valeurViewport) / var(--variableLargeur));
+    left:calc(40 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(268 * var(--valeurViewport) / var(--variableLargeur));
+    
+}
+
+.containerQuestion6{
     left:50% !important;
     transform:translateX(-50%)
 }

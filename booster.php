@@ -88,32 +88,36 @@
         <img src="assets/img/visu_sac_soluble.png" alt="booster">
         <div class="containerDescription containerDescription5">
             <div class="containerInterieur containerInterieur5">
-                <h3>Booster </h3>
-                <p>Tandem Baits Carp Food PVA Booster,
-                    Appâts pour pêche de la Carpe,
-                    Accessoires de Pêche Carpe Professionnel</p>
-        </div>  
+                <h3>sac soluble </h3>
+                <p>Différentes tailles disponibles :<br>
+                    70x100mm<br>
+                    70x200mm <br>
+                    70x150mm</p>
+            </div>  
         </div>
         <div class="containerQuestion containerQuestion5">
-            <p>Pourquoi utiliser un booster ? A quelle saison ?</p>
+            <p>Pourquoi utiliser un sac soluble ?<br> Quand ? Quelle fréquentation ?</p>
         </div>
        
     </div>
 
-    <!-- <div class="containerImagesEtTexteBooster">
-        <div class="containerImagesBooster">
-            <img src="assets/img/visu_pva.png" alt="booster">
-            <div class="containerDescription">
-                <h3>Booster </h3>
-                <p>Tandem Baits Carp Food PVA Booster,
-                    Appâts pour pêche de la Carpe,
-                    Accessoires de Pêche Carpe Professionnel</p>
+    <div class="containerImagesEtTexteBooster containerImagesEtTexteBooster6">
+        <img src="assets/img/visu_pva.png" alt="booster">
+        <div class="containerInterieur containerInterieur6">
+            <div class="containerDescription containerDescription6">
+               <h3>Booster </h3>
+               <p>Tandem Baits Carp Food PVA Booster,
+                Appâts pour pêche de la Carpe,
+                Accessoires de Pêche Carpe Professionnel</p>
             </div>
-            <div class="containerQuestion">
+        </div>
+            <div class="containerQuestion containerQuestion6">
                 <p>Pourquoi utiliser un booster ? A quelle saison ?</p>
             </div>
-        </div> -->
+     
     </div>
+
+    
 
 
 </div>
