@@ -106,17 +106,53 @@
         <img src="assets/img/visu_pva.png" alt="booster">
         <div class="containerDescription containerDescription6">
             <div class="containerInterieur containerInterieur6">
-                <h3>sac soluble </h3>
-                <p>Différentes tailles disponibles :<br>
-                    70x100mm<br>
-                    70x200mm <br>
-                    70x150mm</p>
+                <h3>Recharge pva mesh</h3>
+                <p>Différentes recharges : <br>
+                    Hiver<br>
+                    Été<br>
+                   </p>
             </div>  
         </div>
         <div class="containerQuestion containerQuestion6">
             <p>Pourquoi utiliser un sac soluble ?<br> Quand ? Quelle fréquentation ?</p>
         </div>
     </div>
+
+    <div class="barreDuMilieuPecheALaCarpe4">
+           
+           </div>
+   
+          
+           
+           <div class="coteDroitLaPecheALaCarpe4">
+   
+               <img src="assets/img/pub_mitchell.png" alt="carte">
+   
+   
+               <div class="containerBoutonPecheALaCarpe4">
+                   <div class="containerLieuDePeche containerBoutonCarpe">
+                       <button>Lieux de pêche </button>
+                   </div>
+   
+                   <div class="containerAdditifs containerBoutonCarpe">
+                       <button>Additifs/Dips/boosters/PVA </button>
+                   </div>
+   
+                   <div class="containerCanneAUtiliser containerBoutonCarpe">
+                       <button>Canne à utiliser</button>
+                   </div>
+   
+                   <div class="containerFilPourMoulinet containerBoutonCarpe">
+                       <button>Fil pour moulinet</button>
+                   </div>
+   
+                   <div class="containerFilPourBasDeLigne containerBoutonCarpe ">
+                       <button>Fil pour bas de ligne</button>
+                   </div>
+               </div>
+           
+   
+           </div>
 
     
 

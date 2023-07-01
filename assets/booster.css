@@ -115,8 +115,9 @@
     font-size:var(--fontSize30px);
     font-family:var(--deuxiemeFontFamily);
     color:var(--troisiemeCouleurTexte);
-    line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur)) ;
-    font-weight:400
+    /* line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur)) ; */
+    font-weight:400;
+    padding-bottom:calc(10 * var(--valeurViewport) / var(--variableLargeur))
 }
 
 .containerDescription .containerInterieur p{
@@ -153,7 +154,7 @@
 
 .containerImagesEtTexteBooster1{
     position:absolute;
-    top:calc(222 * var(--valeurViewport) / var(--variableLargeur));
+    top:calc(222 / var(--hauterMainBooster) * 100%);
     width:calc(431 * var(--valeurViewport) / var(--variableLargeur));
     left:calc(81 * var(--valeurViewport) / var(--variableLargeur));
     height:calc(823 * var(--valeurViewport) / var(--variableLargeur));
@@ -189,11 +190,13 @@
 }
 
 .containerDescription1 .containerInterieur h3{
+    /* position:absolute; */
     font-size:var(--fontSize30px);
     font-family:var(--deuxiemeFontFamily);
     color:var(--troisiemeCouleurTexte);
     line-height:calc(23 * var(--valeurViewport) / var(--variableLargeur)) ;
-    font-weight:400
+    font-weight:400;
+    padding-bottom:calc(10 * var(--valeurViewport) / var(--variableLargeur))
 }
 
 .containerDescription1 .containerInterieur p{
@@ -342,7 +345,7 @@
 
 .containerImagesEtTexteBooster4{
     position:absolute;
-    bottom:0;
+    top:calc(1236 * var(--valeurViewport) / var(--variableLargeur));;
     left:calc(81 * var(--valeurViewport) / var(--variableLargeur));
     margin-right:calc(38 *  var(--valeurViewport) / var(--variableLargeur));
 }
@@ -378,7 +381,7 @@
 
 .containerImagesEtTexteBooster5{
     position:absolute;
-    bottom:0;
+    top:calc(1236 * var(--valeurViewport) / var(--variableLargeur));;
     left:calc(530 * var(--valeurViewport) / var(--variableLargeur));
     margin-right:calc(38 *  var(--valeurViewport) / var(--variableLargeur));
    
@@ -420,7 +423,7 @@
 
 .containerImagesEtTexteBooster6{
     position:absolute !important;
-    bottom:0;
+    top:calc(1236 * var(--valeurViewport) / var(--variableLargeur));;
     left:calc(979 * var(--valeurViewport) / var(--variableLargeur)) !important;
     /* margin-right:calc(38 *  var(--valeurViewport) / var(--variableLargeur)) */
 }
@@ -455,4 +458,120 @@
 .containerQuestion6{
     left:50% !important;
     transform:translateX(-50%)
+}
+
+/*--------------------------Main separateur----------------------------------------*/
+
+
+.barreDuMilieuPecheALaCarpe4{
+    position:absolute;
+    width:calc(1 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(1805 * var(--valeurViewport) / var(--variableLargeur));
+    top:calc(100 * var(--valeurViewport) / var(--variableLargeur));
+    right:calc(492 * var(--valeurViewport) / var(--variableLargeur));
+    background-color:var(--troisiemeCouleurTexte)
+  
+}
+
+/*----------------------------Main cote droit----------------------------------*/
+
+
+/* .coteDroitLaPecheALaCarpe4{
+    position:absolute;
+    width:calc(412 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(762 * var(--valeurViewport) / var(--variableLargeur));
+    top:calc(171.2 * var(--valeurViewport) / var(--variableLargeur));
+    right:calc(1468 * var(--valeurViewport) / var(--variableLargeur));
+} */
+
+
+.coteDroitLaPecheALaCarpe4 img{
+    position:absolute;
+    width:calc(412 * var(--valeurViewport) / var(--variableLargeur));
+    height:calc(762 * var(--valeurViewport) / var(--variableLargeur));
+    top:calc(513 * var(--valeurViewport) / var(--variableLargeur));
+    right:calc(40 * var(--valeurViewport) / var(--variableLargeur));
+}
+
+
+
+.containerBoutonPecheALaCarpe4{
+    position:absolute;
+    top:calc(103 * var(--valeurViewport)/ var(--variableLargeur));
+    right:calc(67 * var(--valeurViewport) / var(--variableLargeur));
+    width:calc(385 * var(--valeurViewport)/ var(--variableLargeur));
+    height:calc(370 * var(--valeurViewport)/ var(--variableLargeur));
+
+}
+
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe
+{
+    position:absolute;
+
+    left:0;
+   
+    height:calc(50 * var(--valeurViewport)/ var(--variableLargeur))
+}
+
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button
+{
+    position:absolute;
+    color:var(--backgroundColor4);
+    font-family:var(--premiereFontFamily);
+    background-color: transparent;
+    width:100%;
+    height:100%;
+    border:1px solid var(--troisiemeCouleurTexte);
+    font-size:calc(28 * var(--valeurViewport)/ var(--variableLargeur));
+    transition:all 0.8s;
+    overflow:hidden;
+}
+
+.containerBoutonPecheALaCarpe4 .containerLieuDePeche
+{
+    top:0;
+    width:calc(235 * var(--valeurViewport)/ var(--variableLargeur));
+}
+.containerBoutonPecheALaCarpe4 .containerAdditifs 
+{
+    top:calc(80 * var(--valeurViewport)/ var(--variableLargeur));
+    width:calc(385 * var(--valeurViewport)/ var(--variableLargeur));
+}
+.containerBoutonPecheALaCarpe4 .containerCanneAUtiliser
+{
+    top:calc(160 * var(--valeurViewport)/ var(--variableLargeur));
+    width:calc(243 * var(--valeurViewport)/ var(--variableLargeur));
+}
+.containerBoutonPecheALaCarpe4 .containerFilPourMoulinet 
+{
+    top:calc(240 * var(--valeurViewport)/ var(--variableLargeur));
+    width:calc(263 * var(--valeurViewport)/ var(--variableLargeur));
+}
+.containerBoutonPecheALaCarpe4 .containerFilPourBasDeLigne {
+    top:calc(320 * var(--valeurViewport)/ var(--variableLargeur));
+    width:calc(300 * var(--valeurViewport)/ var(--variableLargeur));
+}
+
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button:before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color: var(--troisiemeCouleurTexte);
+    transform:translateX(-100%);
+    transition:transform 0.8s;
+    z-index:-1;
+}
+
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button:hover:before{
+    transform:translateX(0)
+}
+
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button:hover,
+.containerBoutonPecheALaCarpe4 .containerBoutonCarpe button:active{
+    color:var(--PremiereCouleurTexte);
+    font-weight:bold;
+    background-color:var(--troisiemeCouleurTexte);
 }
