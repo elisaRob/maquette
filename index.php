@@ -140,7 +140,7 @@
                     <img src="assets/img/visu_silure.png" alt="silure">
                     <div class="presentationImage2 presentation">
                         <h3>Silure
-                            <p>Tout su la pêche au silure…</p>
+                            <p>Tout sur la pêche au silure…</p>
                         </h3>
                     </div>
                 <!-- </a>   -->
