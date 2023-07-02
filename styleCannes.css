@@ -225,7 +225,7 @@
   top: calc(182 * var(--valeurViewport) / var(--variableLargeur));
   width:calc(411 * var(--valeurViewport) / var(--variableLargeur)) ;
   left:calc( 979 * var(--valeurViewport) / var(--variableLargeur));
-  margin-right:calc( 38 * var(--valeurViewport) / var(--variableLargeur));
+  margin-right:calc( 530 * var(--valeurViewport) / var(--variableLargeur));
 }
 
 .conainerMainPrincipalLesCannes .image3 img{

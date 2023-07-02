@@ -14,10 +14,12 @@ background-blend-mode: multiply; */
     font-family: var(--premiereFontFamily);
     display: flex;
     width: 100%;
-    /* background-image: url(/assets/img/form.png); */
+    background-image: url('img/form.png');
     gap: 33%;
     justify-content: center;
     height: calc(100vh - calc(102 * var(--valeurViewport) / var(--variableLargeur)));
+    /*rajout*/
+    color:white;
 }
 .sectionForm form{
     width: 25vw;
