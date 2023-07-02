@@ -32,7 +32,7 @@ background-blend-mode: multiply; */
     border-left: 1px solid rgba(255, 255, 255, .3);
     border-top: 1px solid rgba(255, 255, 255, .3);
     box-shadow: 20px 20px 40px -25px;
-    z-index: 999;
+    /* z-index: 999; */
 }
 #text-form{
     align-self: flex-start;
