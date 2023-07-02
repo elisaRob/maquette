@@ -67,7 +67,7 @@ button:before{
     transform:rotate(-90deg);
     transform-origin:bottom left;
     transition:transform 2s;
-    z-index: index -1 ;
+    z-index: -1 ;
 }
 button:hover:before{
     transform:rotate(0deg);
