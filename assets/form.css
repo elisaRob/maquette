@@ -10,38 +10,16 @@ background-blend-mode: multiply; */
     text-orientation: mixed;
 } */
 
-.btnForm{
-    background-color: #938A56;
-    color: black;
-    padding: 14px 20px;
-    margin: 8px 0px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
-.section-form{
-    width: 100vw;
-    height: calc(100vh - calc(102 * var(--valeurViewport) / var(--variableLargeur)));
+.sectionForm {
     font-family: var(--premiereFontFamily);
-    color: white;
     display: flex;
-    flex-direction: row;
-    background-image: url(/assets/img/background-form-carp.png);
-    justify-content:center;
-    align-items: flex-start;
+    width: 100%;
+    background-color: aquamarine;
     gap: 33%;
+    justify-content: center;
+    height: calc(100vh - calc(102 * var(--valeurViewport) / var(--variableLargeur)));
 }
-
-.section-form textarea{
-    resize: none;
-    width: 350px;
-    margin-top: 10px;
-    border-radius: 3px;
-}
-
-.section-form form{
+.sectionForm form{
     width: 25vw;
     margin-top: 100px;
     display: flex;
@@ -54,31 +32,40 @@ background-blend-mode: multiply; */
     box-shadow: 20px 20px 40px -25px;
     z-index: 999;
 }
-
-input:hover{
-    background: rgba(255, 255, 255, .3);
+#text-form{
+    align-self: flex-start;
+    padding-top: 100px;
 }
-
+h2{
+    font-family: var(--deuxiemeFontFamily);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2)
+}
 .btnForm{
+    background-color: #938A56;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+/* .btnForm{
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100px;
     padding: 3px;
     border-radius: 10px;
+} */
+.sectionForm textarea{
+    resize: none;
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 3px;
 }
-
-#text-form{
-    align-self: flex-start;
-    padding-top: 100px;
-}
-
-#text-form h2{
-    font-family: var(--deuxiemeFontFamily);
-    text-align: center;
-}
-
-.section-form input{
+.sectionForm input{
     margin: 10px;
     border: none;
     border-left: 1px solid rgba(255, 255, 255, .3);
@@ -87,17 +74,13 @@ input:hover{
     border-radius: 5px;
     box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
 }
-
-.section-form input[type="text"],
-.section-form input[type="email"]{
+.sectionForm input[type="text"],
+.sectionForm input[type="email"]{
     width: 10vw;
 }
-
-.section-form form h2{
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+input:hover{
+    background: rgba(255, 255, 255, .3);
 }
-/* Animation css */
-
 section span{
     position: absolute;
     bottom: -50px;
@@ -107,7 +90,6 @@ section span{
     box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
     animation:  animate 4s linear infinite;
 }
-
 section span::before{
     content: '';
     position: absolute;
@@ -117,7 +99,6 @@ section span::before{
     background: radial-gradient(#fff,transparent);
     border-radius: 50%;
 }
-
 @keyframes animate {
     0%{
         transform: translateY(0%);
@@ -131,3 +112,124 @@ section span::before{
         opacity: 0;
     }
 }
+/* .section-form{
+    width: 100vw;
+    height: calc(100vh - calc(102 * var(--valeurViewport) / var(--variableLargeur)));
+    font-family: var(--premiereFontFamily);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    background-image: url(/assets/img/background-form-carp.png);
+    justify-content:center;
+    align-items: flex-start;
+    gap: 33%;
+} */
+
+/* .btnForm{
+    background-color: #938A56;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+} */
+
+/* .section-form textarea{
+    resize: none;
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 3px;
+} */
+
+/* .section-form form{
+    width: 25vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .3);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    box-shadow: 20px 20px 40px -25px;
+    z-index: 999;
+} */
+
+/* input:hover{
+    background: rgba(255, 255, 255, .3);
+} */
+
+/* .btnForm{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    padding: 3px;
+    border-radius: 10px;
+} */
+
+/* #text-form{
+    align-self: flex-start;
+    padding-top: 100px;
+} */
+
+/* #text-form h2{
+    font-family: var(--deuxiemeFontFamily);
+    text-align: center;
+} */
+
+/* .section-form input{
+    margin: 10px;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+} */
+
+/* .section-form input[type="text"],
+.section-form input[type="email"]{
+    width: 10vw;
+} */
+
+/* .section-form form h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+} */
+/* Animation css */
+
+/* section span{
+    position: absolute;
+    bottom: -50px;
+    background: transparent;
+    border-radius: 50px;
+    pointer-events: none;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+    animation:  animate 4s linear infinite;
+} */
+
+/* section span::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.25) translate(-70%,-70%);
+    background: radial-gradient(#fff,transparent);
+    border-radius: 50%;
+} */
+
+/* @keyframes animate {
+    0%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-1200%);
+        opacity: 0;
+    }
+} */

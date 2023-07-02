@@ -3,7 +3,7 @@
 <?php require_once 'header.php' ?>
 
 <!-- Attention ici c'est la partie de page du formulaire -->
-<section class="section-form">
+<section class="sectionForm">
     <div id="text-form">
         <h2>Ne sois pas timide</h2>
         <p class="form">N'hésites pas à nous contacter.<br>
@@ -24,14 +24,14 @@
         <div>
             <textarea id="msg" name="message" rows="10" cols="30" placeholder="Votre message ici" required></textarea>
         </div>
-        <div>
+        <!-- <div>
             <input type="checkbox" name="check" id="">
             <label for="check">Veuillez valider les conditions générales</label>
         </div>
         <div>
             <input type="checkbox" name="check" id="">
             <label for="check">En validant ce formulaire, vous acceptez d'être contacté</label>
-        </div>
+        </div> -->
         <div class="soumettre">
             <button class="btnForm" type="submit">ENVOYER</button>
         </div>
@@ -52,6 +52,7 @@
     setInterval(bubble,50) /* fonction qui permet de repeter indefiniment une fonction avec un delais entre chaque repetition */
 </script>
 </section>
+
         </main>
 <?php
     require_once 'footer.php';
