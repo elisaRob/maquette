@@ -16,6 +16,7 @@
 }
 .sectionForm form{
     width: 30vw;
+    margin: 100px 0px 100px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
