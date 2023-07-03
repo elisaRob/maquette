@@ -1,26 +1,28 @@
-.section-form{
-    width: 100%;
-    height: calc(100vh - calc(102 * var(--valeurViewport) / var(--variableLargeur)));
+/* Contact */ 
+
+    /* font-family:var(--premiereFontFamily); */
+    /* background-color: #ccc; */
+/* opacity: 0.8;
+background-image: radial-gradient(circle at center center, #938A56, #ccc), repeating-radial-gradient(circle at center center, #938A56, #938A56, 13px, transparent 26px, transparent 13px);
+background-blend-mode: multiply; */
+/* .formTitle{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+} */
+
+.sectionForm {
     font-family: var(--premiereFontFamily);
-    color: white;
     display: flex;
-    flex-direction: row;
-    background-image: url(assets/img/form.png);
-    justify-content:center;
-    align-items: flex-start;
+    width: 100%;
+    background-image: url('img/form.png');
     gap: 33%;
-    position: relative;
-    overflow: hidden;
+    justify-content: center;
+    height: calc(100vh - calc(102 * var(--valeurViewport) / var(--variableLargeur)));
+    color:white;
 }
-.section-form textarea{
-    resize: none;
-    width: 20vw;
-    margin-top: 10px;
-    border-radius: 3px;
-}
-.section-form form{
-    width: 25vw;
-    margin-top: 100px;
+.sectionForm form{
+    width: 30vw;
+    margin: 100px 0px 30px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,28 +31,67 @@
     border-left: 1px solid rgba(255, 255, 255, .3);
     border-top: 1px solid rgba(255, 255, 255, .3);
     box-shadow: 20px 20px 40px -25px;
+    /* z-index: 999; */
 }
-input:hover{
-    background: rgba(255, 255, 255, .3);
+#text-form{
+    align-self: flex-start;
+    padding-top: 100px;
+}
+h2{
+    font-family: var(--deuxiemeFontFamily);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2)
 }
 .btnForm{
+    background-color: #938A56;
+    z-index: 1;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+button:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:150%;
+    height:100%;
+    background-color:#938432;
+    transform:translateX(-100%);
+    /* transform-origin:bottom left; */
+    transition:transform 0.8s;
+    z-index: -1 ;
+    
+}
+button:hover:before{
+    transform:translateX(0);
+}
+button:hover{
+    color: white;
+}
+/* .btnForm{
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100px;
     padding: 3px;
     border-radius: 10px;
+} */
+.sectionForm textarea{
+    resize: none;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 3px;
 }
-#text-form{
-    align-self: flex-start;
-    padding-top: 100px;
-}
-#text-form h2{
-    font-family: var(--deuxiemeFontFamily);
-    text-align: center;
-}
-.section-form input{
-    margin: 10px;
+.sectionForm input{
+    margin: 7px;
     border: none;
     border-left: 1px solid rgba(255, 255, 255, .3);
     border-top: 1px solid rgba(255, 255, 255, .3);
@@ -58,16 +99,18 @@ input:hover{
     border-radius: 5px;
     box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
 }
-.section-form input[type="text"],
-.section-form input[type="email"]{
+.sectionForm input[type="text"],
+.sectionForm input[type="email"]{
     width: 10vw;
 }
-.section-form form h2{
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+input:hover{
+    background: rgba(255, 255, 255, .3);
+    color: white;
 }
-
-/* Animation css */
-
+.sectionForm textarea:hover{
+    background: rgba(255, 255, 255, .3);
+    color: white;
+}
 section span{
     position: absolute;
     bottom: -50px;
@@ -98,4 +141,10 @@ section span::before{
         transform: translateY(-1200%);
         opacity: 0;
     }
+}
+input::placeholder{
+    text-align: center;
+}
+textarea::placeholder{
+    text-align: center;
 }
