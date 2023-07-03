@@ -94,7 +94,7 @@ button:hover{
 }
 .sectionForm input[type="text"],
 .sectionForm input[type="email"]{
-    width: calc(450 * var(--valeurViewport) / 1920);
+    width: calc(500 * var(--valeurViewport) / 1920);
 }
 input:hover{
     background: rgba(255, 255, 255, .3);
