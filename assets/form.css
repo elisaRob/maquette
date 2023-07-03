@@ -20,6 +20,7 @@ background-blend-mode: multiply; */
     background-image: url('img/form.png');
     gap: 33%;
     justify-content: center;
+    height: calc(100vh - calc(110 * var(--valeurViewport) / var(--variableLargeur)));
     color:white;
     position: relative;
     overflow: hidden;
