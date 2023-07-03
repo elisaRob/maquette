@@ -35,6 +35,7 @@
 #text-form{
     align-self: flex-start;
     padding-top: calc(100 * var(--valeurViewport) / 1920);
+    margin-left: calc(100 * var(--valeurViewport) / 1920);
 }
 h2{
     font-family: var(--deuxiemeFontFamily);
