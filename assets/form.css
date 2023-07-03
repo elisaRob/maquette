@@ -5,7 +5,7 @@
     color: white;
     display: flex;
     flex-direction: row;
-    background-image: url(/Assets/img/background-form-carp.png);
+    background-image: url(assets/img/form.png);
     justify-content:center;
     align-items: flex-start;
     gap: 33%;
