@@ -5,7 +5,7 @@
 .sectionForm {
     font-family: var(--premiereFontFamily);
     display: flex;
-    width: 100%;
+    width:calc(1920 * var(--valeurViewport) / 1920);
     background-image: url('img/form.png');
     background-size: cover;
     background-repeat: no-repeat;
