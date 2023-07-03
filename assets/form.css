@@ -9,7 +9,7 @@
     background-image: url('img/form.png');
     gap: 33%;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: calc(100vh - calc(110 * var(--valeurViewport) / var(--variableLargeur)));
     color:white;
     position: relative;
