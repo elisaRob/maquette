@@ -16,7 +16,8 @@
 }
 .sectionForm form{
     width: 30vw;
-    margin: 100px 0px 100px 0px;
+    margin: 80px 0px 80px 0px;
+    padding: 15px 0px 15px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
