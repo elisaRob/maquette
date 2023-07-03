@@ -80,7 +80,7 @@ button:hover{
 .sectionForm textarea{
     resize: none;
     width:calc(500 * var(--valeurViewport) / 1920);
-    margin-top: calc(10 * var(--valeurViewport) / 1920);
+    margin-top: calc(20 * var(--valeurViewport) / 1920);
     border-radius: 3px;
 }
 .sectionForm input{
