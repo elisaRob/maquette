@@ -48,11 +48,11 @@ h2{
     z-index: 1;
     color: black;
     padding-top:calc(14 * var(--valeurViewport) / 1920);
-    padding-bottom: calc(20 * var(--valeurViewport) / 1920);
+    padding-bottom: calc(14 * var(--valeurViewport) / 1920);
     margin-top:calc(30 * var(--valeurViewport) / 1920);
     border: none;
     cursor: pointer;
-    width: 100%;
+    width:calc(150 * var(--valeurViewport) / 1920);
     opacity: 0.9;
     position: relative;
     overflow: hidden;
