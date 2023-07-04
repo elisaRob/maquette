@@ -131,24 +131,44 @@ function quelChiffre(e){
         case "1":
             removeActive();
             enleverChiffreSpan();
+            enleverH2Active();
+            elRecuperationH2DiaporamaImage[0].classList.add("active")
+            elRecuperationContainerH2DiaporamaImage.style.left='48%';
             images[0].classList.add('active');
             elChiffreSpan[0].classList.add('active');
             break;
         case "2":
             removeActive();
             enleverChiffreSpan();
+            enleverH2Active();
+            elRecuperationH2DiaporamaImage[1].classList.add("active");
+            elRecuperationContainerH2DiaporamaImage.style.left='50%'
+            elRecuperationContainerH2DiaporamaImage.style.top='calc(286 / var(--hauteurDiaporama) * 100%)';
+            elRecuperationH2DiaporamaImage[1].style.whiteSpace='nowrap';
             images[1].classList.add('active');
             elChiffreSpan[1].classList.add('active')
             break;
         case "3":
             removeActive();
             enleverChiffreSpan();
+            enleverH2Active();
+            elRecuperationH2DiaporamaImage[2].classList.add("active");
+            elRecuperationH2DiaporamaImage[2].style.textAlign='center';
+            elRecuperationH2DiaporamaImage[2].style.whiteSpace='wrap';
+            elRecuperationContainerH2DiaporamaImage.style.top='calc(140 / var(--hauteurDiaporama) * 100%)';
+            elRecuperationContainerH2DiaporamaImage.style.left='50%'
             images[2].classList.add('active');
             elChiffreSpan[2].classList.add('active')
             break;
         case "4":
             removeActive();
             enleverChiffreSpan();
+            enleverH2Active();
+            elRecuperationH2DiaporamaImage[3].classList.add("active");
+            elRecuperationContainerH2DiaporamaImage.style.left='50%';
+            elRecuperationH2DiaporamaImage[3].style.whiteSpace='nowrap';
+            elRecuperationH2DiaporamaImage[3].style.textAlign="center";
+            elRecuperationContainerH2DiaporamaImage.style.top='calc(286 / var(--hauteurDiaporama) * 100%)'
             images[3].classList.add('active');
             elChiffreSpan[3].classList.add('active')
             break;
