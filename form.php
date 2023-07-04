@@ -14,30 +14,36 @@
     <form action="reponse.php" method="POST">
         <h2>Formulaire de contact</h2>
         <div>
-            <input type="text" name="nom" required placeholder="Vos Noms et Prénoms">
+            <input type="text" name="nom" id="nom" required placeholder="Vos Noms et Prénoms">
+            <label for="nom"></label>
         </div>
         <div>
-            <input type="email" name="mail" required placeholder="Mail">
+            <input type="email" name="mail" id="mail" required placeholder="Mail">
+            <label for="mail"></label>
         </div>
         <div>
-            <input type="text" name="sujet" placeholder="Le sujet ">
+            <input type="text" name="sujet" id="sujet" placeholder="Le sujet ">
+            <label for="sujet"></label>
         </div>
         <div>
-            <textarea id="msg" name="message" rows="10" cols="30" placeholder="Votre message ici" required></textarea>
+            <textarea id="msg" name="msg" rows="10" cols="30" placeholder="Votre message ici" required></textarea>
+            <label for="msg"></label>
         </div>
         <div>
-            <input type="checkbox" name="check" id="">
-            <label for="check">Veuillez valider les conditions générales</label>
+            <input type="checkbox" name="check1" id="check1">
+            <label for="check1">Veuillez valider les conditions générales</label>
         </div>
         <div>
-            <input type="checkbox" name="check" id="">
-            <label for="check">En validant ce formulaire, vous acceptez d'être contacté</label>
+            <input type="checkbox" name="check2" id="check2">
+            <label for="check2">En validant ce formulaire, vous acceptez d'être contacté</label>
         </div>
         <div class="soumettre">
             <button class="btnForm" type="submit">ENVOYER</button>
         </div>
     </form>
 <script>
+    function verifWidth(){
+        if(window.innerWidth >= 1024 && window.location.href.endsWith("form.php")){
     function bubble(){
         const section = document.querySelector('.sectionForm')
         const createEl = document.createElement('span')
@@ -54,6 +60,9 @@
     }
 
     setInterval(bubble,50) /* fonction qui permet de repeter indefiniment une fonction avec un delais entre chaque repetition */
+}
+}
+verifWidth();
 </script>
 </section>
 
