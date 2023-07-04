@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="assets/footer.css">
 </head>
 <body>
+    <header>
     <nav>
         <ul>
             <li>
@@ -26,3 +27,4 @@
             <span></span>
         </div>
     </nav>
+</header>
