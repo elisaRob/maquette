@@ -3,7 +3,7 @@
 <script src="app.js" defer></script>
 <?php require_once 'header.php' ?>
 
-<ArticleT class="essai">
+<div class="essai">
     <b>
 <p> Bienvenue sur notre site dédié à la passion de la pêche ! Nous sommes une équipe de pêcheurs passionnés 
 qui partagent un amour commun pour ce merveilleux sport.</p> 
@@ -34,7 +34,10 @@ peut offrir.</p>
 guide vers de grandes découvertes et de belles prises !</p>
 
 <p>Votre équipe des passionnées 86. Bonne chance avec votre site de pêche !</p></b>
-</ArticleT>
+</div>
+<section class="GifAnime">
+    <img src="assets/img/Bonne_Peche.gif" width="700px">
+</section>
 
 <?php
     require_once 'footer.php';
