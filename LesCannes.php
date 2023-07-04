@@ -123,27 +123,37 @@
    
    
                <div class="containerBoutonPecheALaCarpe4">
-                   <div class="containerLieuDePeche containerBoutonCarpe">
-                       <button>Lieux de pêche </button>
-                   </div>
-   
-                   <div class="containerAdditifs containerBoutonCarpe">
-                       <button>Additifs/Dips/boosters/PVA </button>
-                   </div>
-   
-                   <div class="containerCanneAUtiliser containerBoutonCarpe">
-                       <button>Canne à utiliser</button>
-                   </div>
-   
-                   <div class="containerFilPourMoulinet containerBoutonCarpe">
-                       <button>Fil pour moulinet</button>
-                   </div>
-   
-                   <div class="containerFilPourBasDeLigne containerBoutonCarpe ">
-                       <button>Fil pour bas de ligne</button>
-                   </div>
-               </div>
-           
+                    <div class="containerLieuDePeche containerBoutonCarpe">                        
+                        <a href="pechealacarpe_1.php">
+                            <button>Lieux de pêche </button>
+                        </a> 
+                    </div>
+
+                    <div class="containerAdditifs containerBoutonCarpe">                        
+                        <a href="">
+                            <button>Additifs/Dips/boosters/PVA </button>
+                        </a> 
+                    </div>
+
+                    <div class="containerCanneAUtiliser containerBoutonCarpe">
+                        <a href="LesCannes.php">
+                            <button> Canne à utiliser</button>
+                        </a> 
+                    </div>
+
+                    <div class="containerFilPourMoulinet containerBoutonCarpe">                        
+                        <a href="pechealacarpe_4.php">
+                            <button>Fil pour moulinet</button>
+                        </a> 
+                    </div>
+
+                    <div class="containerFilPourBasDeLigne containerBoutonCarpe ">                        
+                        <a href="">
+                            <button>Fil pour bas de ligne</button>
+                        </a> 
+                    </div>
+                </div>
+
    
            </div>
 

@@ -24,31 +24,34 @@
         <div>
             <textarea id="msg" name="message" rows="10" cols="30" placeholder="Votre message ici" required></textarea>
         </div>
-        <!-- <div>
+        <div>
             <input type="checkbox" name="check" id="">
             <label for="check">Veuillez valider les conditions générales</label>
         </div>
         <div>
             <input type="checkbox" name="check" id="">
             <label for="check">En validant ce formulaire, vous acceptez d'être contacté</label>
-        </div> -->
+        </div>
         <div class="soumettre">
             <button class="btnForm" type="submit">ENVOYER</button>
         </div>
     </form>
 <script>
     function bubble(){
-        const section = document.querySelector('section')
+        const section = document.querySelector('.sectionForm')
         const createEl = document.createElement('span')
         var size = Math.random() * 60;
+
         createEl.style.width = 20 + size + 'px'; /* Largeur de chaque bulle = 20 + un chiffre aleatoire entre 0 et 1 multiplié par 60 , le tout en px */
         createEl.style.height = 20 + size + 'px';/* hauteur de chaque bulle = 20 + un chiffre aleatoire entre 0 et 1 multiplié par 60 , le tout en px */
-        createEl.style.left = Math.random() * innerWidth + "px"; /* chaque bulle a une position aleatoire par rapport a la gauche, (innerwidth renvoie la largeur d'affichage de la fenetre de navigation) */
+        createEl.style.left = Math.random() * section.offsetWidth + "px"; /* chaque bulle a une position aleatoire par rapport a la gauche, (innerwidth remplacé par offsetWidht , Cela assure que les bulles sont créées aléatoirement à l'intérieur de la largeur de la section plutôt que la largeur totale de la fenêtre du navigateur.) */ 
         section.appendChild(createEl);
+
         setTimeout(() => { /* fonction qui permet d'ajouter un delais avant l'execution d'une fonction */
-            createEl.remove() /* surpprime les bulles  */
-        },4000) /* au bout de 4s (4000ms) */
+            createEl.remove() /* surpprime les bulles  */ 
+        },4000) /* au bout de 4s (4000ms) */ 
     }
+
     setInterval(bubble,50) /* fonction qui permet de repeter indefiniment une fonction avec un delais entre chaque repetition */
 </script>
 </section>

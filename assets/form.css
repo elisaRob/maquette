@@ -1,60 +1,62 @@
-/* Contact */ 
-
-    /* font-family:var(--premiereFontFamily); */
-    /* background-color: #ccc; */
-/* opacity: 0.8;
-background-image: radial-gradient(circle at center center, #938A56, #ccc), repeating-radial-gradient(circle at center center, #938A56, #938A56, 13px, transparent 26px, transparent 13px);
-background-blend-mode: multiply; */
-/* .formTitle{
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-} */
-
+*{
+    padding: 0;
+    margin: 0;
+}
 .sectionForm {
     font-family: var(--premiereFontFamily);
     display: flex;
-    width: 100%;
+    width:calc(1920 * var(--valeurViewport) / 1920);
     background-image: url('img/form.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     gap: 33%;
     justify-content: center;
-    height: calc(100vh - calc(102 * var(--valeurViewport) / var(--variableLargeur)));
-    /*rajout*/
+    align-items: center;
+    height: calc(100vh - calc(110 * var(--valeurViewport) / var(--variableLargeur)));
     color:white;
+    position: relative;
+    overflow: hidden;
 }
 .sectionForm form{
-    width: 25vw;
-    margin-top: 100px;
+    width:calc(640 * var(--valeurViewport) / 1920);
+    height: 60vh;
+    padding-top:calc(100 * var(--valeurViewport) / 1920);
+    margin-right: calc(120 * var(--valeurViewport) / 1920);
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
+    gap:calc(10 * var(--valeurViewport) / 1920) ;
     background: rgba(255, 255, 255, .3);
     border-left: 1px solid rgba(255, 255, 255, .3);
     border-top: 1px solid rgba(255, 255, 255, .3);
     box-shadow: 20px 20px 40px -25px;
-    z-index: 999;
 }
 #text-form{
     align-self: flex-start;
-    padding-top: 100px;
+    padding-top: calc(100 * var(--valeurViewport) / 1920);
+    margin-left: calc(120 * var(--valeurViewport) / 1920);
 }
 h2{
     font-family: var(--deuxiemeFontFamily);
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2)
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    margin-bottom: calc(25 * var(--valeurViewport) / 1920);
 }
 .btnForm{
     background-color: #938A56;
     z-index: 1;
     color: black;
-    padding: 14px 20px;
-    margin: 8px 0px;
+    padding-top:calc(14 * var(--valeurViewport) / 1920);
+    padding-bottom: calc(14 * var(--valeurViewport) / 1920);
+    margin-top:calc(30 * var(--valeurViewport) / 1920);
     border: none;
     cursor: pointer;
-    width: 100%;
+    width:calc(150 * var(--valeurViewport) / 1920);
     opacity: 0.9;
     position: relative;
     overflow: hidden;
+    border-radius: 4px;
 }
 button:before{
     content:"";
@@ -64,43 +66,43 @@ button:before{
     width:150%;
     height:100%;
     background-color:#938432;
-    transform:rotate(-90deg);
-    transform-origin:bottom left;
-    transition:transform 2s;
+    transform:translateX(-100%);
+    transition:transform 0.8s;
     z-index: -1 ;
+    
 }
 button:hover:before{
-    transform:rotate(0deg);
+    transform:translateX(0);
 }
-/* .btnForm{
-    cursor: pointer;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100px;
-    padding: 3px;
-    border-radius: 10px;
-} */
+button:hover{
+    color: white;
+}
 .sectionForm textarea{
     resize: none;
-    width: 350px;
-    margin-top: 10px;
+    width:calc(500 * var(--valeurViewport) / 1920);
+    margin-top: calc(20 * var(--valeurViewport) / 1920);
     border-radius: 3px;
 }
 .sectionForm input{
-    margin: 10px;
+    margin: calc(7 * var(--valeurViewport) / 1920);
     border: none;
     border-left: 1px solid rgba(255, 255, 255, .3);
     border-top: 1px solid rgba(255, 255, 255, .3);
-    padding: 5px;
+    padding:calc(5 * var(--valeurViewport) / 1920);
     border-radius: 5px;
     box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
 }
 .sectionForm input[type="text"],
 .sectionForm input[type="email"]{
-    width: 10vw;
+    width: calc(500 * var(--valeurViewport) / 1920);
 }
 input:hover{
     background: rgba(255, 255, 255, .3);
+    color: white;
+}
+.sectionForm textarea:hover{
+    background: rgba(255, 255, 255, .3);
+    color: white;
 }
 section span{
     position: absolute;
@@ -133,124 +135,9 @@ section span::before{
         opacity: 0;
     }
 }
-/* .section-form{
-    width: 100vw;
-    height: calc(100vh - calc(102 * var(--valeurViewport) / var(--variableLargeur)));
-    font-family: var(--premiereFontFamily);
-    color: white;
-    display: flex;
-    flex-direction: row;
-    background-image: url(/assets/img/background-form-carp.png);
-    justify-content:center;
-    align-items: flex-start;
-    gap: 33%;
-} */
-
-/* .btnForm{
-    background-color: #938A56;
-    color: black;
-    padding: 14px 20px;
-    margin: 8px 0px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-} */
-
-/* .section-form textarea{
-    resize: none;
-    width: 350px;
-    margin-top: 10px;
-    border-radius: 3px;
-} */
-
-/* .section-form form{
-    width: 25vw;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, .3);
-    border-left: 1px solid rgba(255, 255, 255, .3);
-    border-top: 1px solid rgba(255, 255, 255, .3);
-    box-shadow: 20px 20px 40px -25px;
-    z-index: 999;
-} */
-
-/* input:hover{
-    background: rgba(255, 255, 255, .3);
-} */
-
-/* .btnForm{
-    cursor: pointer;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100px;
-    padding: 3px;
-    border-radius: 10px;
-} */
-
-/* #text-form{
-    align-self: flex-start;
-    padding-top: 100px;
-} */
-
-/* #text-form h2{
-    font-family: var(--deuxiemeFontFamily);
+input::placeholder{
     text-align: center;
-} */
-
-/* .section-form input{
-    margin: 10px;
-    border: none;
-    border-left: 1px solid rgba(255, 255, 255, .3);
-    border-top: 1px solid rgba(255, 255, 255, .3);
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
-} */
-
-/* .section-form input[type="text"],
-.section-form input[type="email"]{
-    width: 10vw;
-} */
-
-/* .section-form form h2{
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-} */
-/* Animation css */
-
-/* section span{
-    position: absolute;
-    bottom: -50px;
-    background: transparent;
-    border-radius: 50px;
-    pointer-events: none;
-    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
-    animation:  animate 4s linear infinite;
-} */
-
-/* section span::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transform: scale(0.25) translate(-70%,-70%);
-    background: radial-gradient(#fff,transparent);
-    border-radius: 50%;
-} */
-
-/* @keyframes animate {
-    0%{
-        transform: translateY(0%);
-        opacity: 1;
-    }
-    99%{
-        opacity: 1;
-    }
-    100%{
-        transform: translateY(-1200%);
-        opacity: 0;
-    }
-} */
+}
+textarea::placeholder{
+    text-align: center;
+}
