@@ -1,0 +1,6 @@
+body {
+    background-color: #ccc;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ccc 36px ), repeating-linear-gradient( #938A5655, #938A56 );
+}
+
