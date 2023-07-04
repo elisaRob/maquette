@@ -6,9 +6,10 @@ let nombreImages=images.length;
 let interval;
 const chiffres=document.querySelectorAll(".chiffre");
 const elChiffreSpan=document.querySelectorAll('.chiffreSpan');
-const elRecuperationContainerH2DiaporamaImage=document.querySelector(".containerH2DiaporamaImage")
+const elRecuperationContainerH2DiaporamaImage=document.querySelector(".containerH2DiaporamaImage");
 const elRecuperationH2DiaporamaImage=document.querySelectorAll(".h2DiaporamaImage");
-const recuperationDivFlecheRemonterFooter=document.querySelector(".containerFlecheRemonterFooter")
+const recuperationDivFlecheRemonterFooter=document.querySelector(".containerFlecheRemonterFooter");
+const recuperationLienSavoir = document.querySelector(".lienSavoir");
 
 
 precedent.addEventListener("click",(e)=>{
@@ -136,6 +137,7 @@ function quelChiffre(e){
             elRecuperationContainerH2DiaporamaImage.style.left='48%';
             images[0].classList.add('active');
             elChiffreSpan[0].classList.add('active');
+            recuperationLienSavoir.setAttribute('href', 'pechealacarpe_1');
             break;
         case "2":
             removeActive();
@@ -147,6 +149,7 @@ function quelChiffre(e){
             elRecuperationH2DiaporamaImage[1].style.whiteSpace='nowrap';
             images[1].classList.add('active');
             elChiffreSpan[1].classList.add('active')
+            recuperationLienSavoir.setAttribute('href', '');
             break;
         case "3":
             removeActive();
@@ -159,6 +162,7 @@ function quelChiffre(e){
             elRecuperationContainerH2DiaporamaImage.style.left='50%'
             images[2].classList.add('active');
             elChiffreSpan[2].classList.add('active')
+            recuperationLienSavoir.setAttribute('href', '');
             break;
         case "4":
             removeActive();
@@ -171,6 +175,7 @@ function quelChiffre(e){
             elRecuperationContainerH2DiaporamaImage.style.top='calc(286 / var(--hauteurDiaporama) * 100%)'
             images[3].classList.add('active');
             elChiffreSpan[3].classList.add('active')
+            recuperationLienSavoir.setAttribute('href', '');
             break;
     }
 
