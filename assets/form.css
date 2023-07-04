@@ -57,6 +57,14 @@ h2{
         font-size: 15px ;
     }
 }
+@media (max-Width: 1024px){
+    #check1{
+        font-size: 10px;
+    }
+    #check2{
+        font-size: 10px;
+    }
+}
 .btnForm{
     background-color: #938A56;
     z-index: 1;
