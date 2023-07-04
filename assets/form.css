@@ -43,6 +43,20 @@ h2{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
     margin-bottom: calc(25 * var(--valeurViewport) / 1920);
 }
+#check1{
+    font-size: 20px;
+}
+#check2{
+    font-size: 20px;
+}
+@media (max-width: 1440px){
+    #check1{
+        font-size: 15px ;
+    }
+    #check2{
+        font-size: 15px ;
+    }
+}
 .btnForm{
     background-color: #938A56;
     z-index: 1;
