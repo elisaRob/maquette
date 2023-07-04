@@ -36,7 +36,7 @@ guide vers de grandes découvertes et de belles prises !</p>
 <p>Votre équipe des passionnées 86. Bonne chance avec votre site de pêche !</p></b>
 </div>
 <section class="GifAnime">
-   <img src="assets/img/Gaston.gif" width="700px">
+   <img src="assets/img/Gaston.gif" width="700px"> <img src="assets/img/Geek_Pecheur.gif" width="400px">
 </section>
 
 <?php
