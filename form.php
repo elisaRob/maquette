@@ -3,6 +3,7 @@
 <?php require_once 'header.php' ?>
 
 <!-- Attention ici c'est la partie de page du formulaire -->
+<main>
 <section class="sectionForm">
     <div id="text-form">
         <h2>Ne sois pas timide</h2>
